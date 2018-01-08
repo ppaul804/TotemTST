@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" /><!--encoding de caracteres -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /><!--Internet Explorer renderiza como Edge-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><!-- sem zoom -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /><!-- Bootstrap -->
+        <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+        <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <title>Totem interativo</title>
+    </head>
+    
+    <body>
+        <!--____________________________DIV___________________________________________-->
+        <div class="container-fluid">
+            <ul class="list-inline">
+                <li><button type="button" class="btn btn-default btn-lg img parte1" onclick="alerta('imagem 1')"></button></li>
+                <li><button type="button" class="btn btn-default btn-lg img parte2" onclick="alerta('imagem 2')"></button></li>
+                <li><button type="button" class="btn btn-default btn-lg img parte3" onclick="alerta('imagem 3')"></button></li>
+                <li><a href="link" class="img parte1"></a></li>
+                <li><a href="link" class="img parte2"></a></li>
+                <li><a href="link" class="img parte3"></a></li>
+            </ul>
+            
+<!--Comentário
+Comentário -->
+            <!-- Imagem da tela responsiva e centralizada -->
+            <!--<img class="img-responsive center-block" src="https://lh5.googleusercontent.com/jSyZrV6e-kLGy6kWIsygAs9F1GMcMx-Pn2FP_8BK6U_kjbWPo159DKduWX8VEVpQcoO63-XaxRjygBl1NQxt=w1440-h769-rw" class="img-responsive" alt="Falha ao carregar imagem">-->
+        </div>
+        <!--____________________________DIV___________________________________________-->
+        <!--*** Arquivos JavaScript ***-->
+        <script src="js/main.js"></script>
+        <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
