@@ -2,7 +2,7 @@
 * Inicializamos o angular.module com o mesmo nome que definimos na diretiva ng-app
 * E incluímos a dependência do ngRoute 
 */
-var app = angular.module('totem', ['ngRoute']);
+var app = angular.module('toten', ['ngRoute', 'ngAnimate']);
 
 /**
  * Como possuímos a variavel app definida acima com a inicialização do Angular
@@ -23,11 +23,6 @@ app.config(['$routeProvider', function ($routeProvider) {
         .when("/teste", {
             templateUrl: "templates/teste.html",
             controller: "TesteCtrl"
-        })
-        /* aqui você pode adicionar rotas para outras paginas que desejar criar
-         por último dizemos se nenhuma url digitada for encontrada mostramos a página 404 que não existe no nosso servidor */
-        .otherwise("/404", {
-            templateUrl: "templates/404.html"
         });
 }]);
 

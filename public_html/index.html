@@ -17,22 +17,26 @@
         <!--_______________________________________________________________________-->
         <!-- Folha de estilo -->
         <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <title>Totem interativo</title>
+        <title>Toten interativo</title>
         <!--_______________________________________________________________________-->        
     </head>
     
-    <body ng-app="totem">
+    <body ng-app="toten">
         <!--_______________________________________________________________________-->
-        <div ng-include="'templates/nav.html'"></div>
-        <div class="container-fluid" ng-view="conteudo"><!-- Aqui será mostrado o conteúdo --></div>
+        <div 
+            id="tela" 
+            class="container-fluid" 
+            ng-view="conteudo"
+        ><!-- Aqui será mostrado o conteúdo --></div>
         <!--_______________________________________________________________________-->
         
         <!--___ Arquivos JavaScript ___-->
         <script src="js/main.js"></script><!-- Arquivo principal de javascript -->
+        <!--_______________________________________________________________________-->
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
         <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separados se necessário -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><!-- Biblioteca de janelinhas (pop overs) -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script><!-- javascript do bootstrap -->
     </body>
 </html>

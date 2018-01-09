@@ -1,12 +1,8 @@
-body {
-    background-image: url("../img/DESING_TOTEM INTERATIVO3.jpg");
-    background-repeat: no-repeat;
-    background-size: 
-    
-}
-.container-fluid{
-    border: 1px solid black;
-    background-position: top center;
-    width: 100%;
+#tela {
+    width: auto;
     height: 800px;
+    background-image: url("../img/DESING_TOTEN INTERATIVO3.jpg");//local de acordo com o style.css
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid black;
 }
