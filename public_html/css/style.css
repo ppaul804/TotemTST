@@ -1,9 +1,12 @@
+body {
+    background-image: url("../img/DESING_TOTEM INTERATIVO3.jpg");
+    background-repeat: no-repeat;
+    background-size: 
+    
+}
 .container-fluid{
     border: 1px solid black;
-    background-image: url("img/DESING_TOTEM INTERATIVO3.jpg");
-    background-repeat: no-repeat;
     background-position: top center;
     width: 100%;
     height: 800px;
 }
-

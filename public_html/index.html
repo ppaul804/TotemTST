@@ -12,19 +12,23 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script><!-- AngularJS -->
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script><!-- animação do Angular -->
+
+        <!--_______________________________________________________________________-->
+        <!-- Folha de estilo -->
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <title>Totem interativo</title>
+        <!--_______________________________________________________________________-->        
     </head>
     
     <body ng-app="totem">
-        <!--____________________________TODO CONTEÚDO AQUI___________________________________________-->
+        <!--_______________________________________________________________________-->
         <div ng-include="'templates/nav.html'"></div>
-        <div class="container-fluid" ng-view="conteudo"></div>
-        <!--____________________________TODO CONTEÚDO AQUI___________________________________________-->
+        <div class="container-fluid" ng-view="conteudo"><!-- Aqui será mostrado o conteúdo --></div>
+        <!--_______________________________________________________________________-->
         
-        <!--*** Arquivos JavaScript ***-->
-        <script src="js/main.js"></script>
+        <!--___ Arquivos JavaScript ___-->
+        <script src="js/main.js"></script><!-- Arquivo principal de javascript -->
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
         <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separados se necessário -->
