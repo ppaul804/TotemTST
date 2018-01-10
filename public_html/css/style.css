@@ -16,19 +16,15 @@ img {
     border: 1px solid black;
 }
 
-.menu-inicial {
-    /*display: block;*/
-}
-
 .menu-inicial-botao {
     border: 1px solid black;
     width: 10%;
     height: 10%;
 }
-
 .menu-inicial-lista {
     display: none;
 }
+
 
 #tela {
     width: auto;

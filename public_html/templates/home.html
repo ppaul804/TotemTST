@@ -1,86 +1,123 @@
 <script>
+//    Código Efeito Toggle
     $(document).ready(function(){
-        $('.menu-inicial-botao').click(function(){
-            $('.menu-inicial-lista').animate({
+        $('#botao-ori').click(function(){
+            $('#botao-ori-lista').animate({
                 height: 'toggle'
             });
         }); 
     });
+    $(document).ready(function(){
+        $('#botao-cnt').click(function(){
+            $('#botao-cnt-lista').animate({
+                height: 'toggle'
+            });
+        }); 
+    });
+    $(document).ready(function(){
+        $('#botao-jt').click(function(){
+            $('#botao-jt-lista').animate({
+                height: 'toggle'
+            });
+        }); 
+    });
+    $(document).ready(function(){
+        $('#botao-tst').click(function(){
+            $('#botao-tst-lista').animate({
+                height: 'toggle'
+            });
+        }); 
+    });
+    $(document).ready(function(){
+        $('#botao-csjt').click(function(){
+            $('#botao-csjt-lista').animate({
+                height: 'toggle'
+            });
+        }); 
+    });
+    $(document).ready(function(){
+        $('#botao-curi').click(function(){
+            $('#botao-curi-lista').animate({
+                height: 'toggle'
+            });
+        }); 
+    });
+//    Fim Código Efeito Toggle
 </script>
 
 <!--<a href="#!/criacao-cnt">A Criação do CNT</a> <- Modelo de link-->
 
 <div class="menu-inicial">
     <!--____________________ Botão Origem e Evolução do Trabalho ____________________-->
-    <div class="menu-inicial-botao">
+    <div id="botao-ori" class="menu-inicial-botao">
         <h6>Origem e Evolução do Trabalho</h6>
         <img src="img/origem-evolucao.jpg" alt="Origem e Evolução do Trabalho" /><!--Cabeçalho-->
+        <ul id="botao-ori-lista" class="menu-inicial-lista list-unstyled">
+            <li><a href="#">História do Trabalho no Brasil</a></li>
+            <li><a href="#">Legislação Trabalhista</a></li>
+        </ul>
     </div>
-    <ul class="menu-inicial-lista list-unstyled">
-        <li><a href="#">História do Trabalho no Brasil</a></li>
-        <li><a href="#">Legislação Trabalhista</a></li>
-    </ul>
     
     <!--____________________ Botão Conselho Nacional do Trabalho ____________________-->
-    <div class="menu-inicial-botao">
+    <div id="botao-cnt" class="menu-inicial-botao">
         <h6>CNT</h6>
         <img src="img/cnt.jpg" alt="Conselho Nacional do Trabalho" /><!--Cabeçalho-->
+        <ul id="botao-cnt-lista" class="menu-inicial-lista list-unstyled">
+            <li><a href="#">A Criação do CNT</a></li>
+            <li><a href="#">A Criação do Ministério do Trabalho</a></li>
+            <li><a href="#">Constituição de 1934</a></li>
+            <li><a href="#">Acervo CNT</a></li>
+            <li><a href="#">Novo Regulamento do Conselho Nacional do Trabalho</a></li>
+            <li><a href="#">Quadros Evolutivos da Estrutura do CNT</a></li>
+            <li><a href="#">Presidentes do CNT</a></li>
+            <li><a href="#"></a></li>
+        </ul>
     </div>
-    <ul class="menu-inicial-lista list-unstyled">
-        <li><a href="#">A Criação do CNT</a></li>
-        <li><a href="#">A Criação do Ministério do Trabalho</a></li>
-        <li><a href="#">Constituição de 1934</a></li>
-        <li><a href="#">Acervo CNT</a></li>
-        <li><a href="#">Novo Regulamento do Conselho Nacional do Trabalho</a></li>
-        <li><a href="#">Quadros Evolutivos da Estrutura do CNT</a></li>
-        <li><a href="#">Presidentes do CNT</a></li>
-        <li><a href="#"></a></li>
-    </ul>
     
     <!--____________________ Botão Justiça do Trabalho ____________________-->
-    <div class="menu-inicial-botao">
+    <div id="botao-jt" class="menu-inicial-botao">
         <h6>Justiça do Trabalho</h6>
         <img src="img/justica-trabalho.jpg" alt="Justiça do Trabalho" /><!--Cabeçalho-->
+        <ul id="botao-jt-lista" class="menu-inicial-lista list-unstyled">
+            <li><a href="#">A Justiça do Trabalho no Mundo</a></li>
+            <li><a href="#">A Justiça do Trabalho no Brasil</a></li>
+            <li><a href="#">Atores da Justiça do Trabalho no Brasil</a></li>
+            <li><a href="#"></a></li>
+        </ul>
     </div>
-    <ul class="menu-inicial-lista list-unstyled">
-        <li><a href="#">A Justiça do Trabalho no Mundo</a></li>
-        <li><a href="#">A Justiça do Trabalho no Brasil</a></li>
-        <li><a href="#">Atores da Justiça do Trabalho no Brasil</a></li>
-        <li><a href="#"></a></li>
-    </ul>
     
     <!--____________________ Botão Tribunal Superior do Trabalho ____________________-->
-    <div class="menu-inicial-botao">
+    <div id="botao-tst" class="menu-inicial-botao">
         <h6>TST</h6>
         <img src="img/tst.jpg" alt="Tribunal Superior do Trabalho" /><!--Cabeçalho-->
+        <ul id="botao-tst-lista" class="menu-inicial-lista list-unstyled">
+            <li><a href="#">Fatos Históricos Relacionados</a></li>
+            <li><a href="#">Programas Institucionais</a></li>
+            <li><a href="#">70 Anos em Acórdãos</a></li>
+            <li><a href="#"></a></li>
+        </ul>
     </div>
-    <ul class="menu-inicial-lista list-unstyled">
-        <li><a href="#">Fatos Históricos Relacionados</a></li>
-        <li><a href="#">Programas Institucionais</a></li>
-        <li><a href="#">70 Anos em Acórdãos</a></li>
-        <li><a href="#"></a></li>
-    </ul>
     
     <!--____________________ Botão Conselho Superior da Justiça do Trabalho ____________________-->
-    <div class="menu-inicial-botao">
+    <div id="botao-csjt" class="menu-inicial-botao">
         <h6>CSJT</h6>
         <img src="img/csjt.jpg" alt="Conselho Superior da Justiça do Trabalho" /><!--Cabeçalho-->
+        <ul id="botao-csjt-lista" class="menu-inicial-lista list-unstyled">
+            <li><a href="#">Criação</a></li>
+            <li><a href="#">Composição</a></li>
+            <li><a href="#">Gestão Estratégica</a></li>
+            <li><a href="#">Atividades</a></li>
+        </ul>
     </div>
-    <ul class="menu-inicial-lista list-unstyled">
-        <li><a href="#">Criação</a></li>
-        <li><a href="#">Composição</a></li>
-        <li><a href="#">Gestão Estratégica</a></li>
-        <li><a href="#">Atividades</a></li>
-    </ul>
     
     <!--____________________ Botão Curiosidades ____________________-->
-    <div class="menu-inicial-botao">
+    <div id="botao-curi" class="menu-inicial-botao">
         <h6>Curiosidades</h6>
         <img src="img/curiosidades.jpg" alt="Curiosidades" /><!--Cabeçalho-->
+        <ul id="botao-curi-lista" class="menu-inicial-lista list-unstyled">
+            <li><a href="#">Dicionário de Profissões Pouco Comuns</a></li>
+            <li><a href="#">Você Sabia?</a></li>
+        </ul>
     </div>
-    <ul class="menu-inicial-lista list-unstyled">
-        <li><a href="#">Dicionário de Profissões Pouco Comuns</a></li>
-        <li><a href="#">Você Sabia?</a></li>
-    </ul>
     
 </div>
