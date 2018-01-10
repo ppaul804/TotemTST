@@ -1,8 +1,21 @@
+body {
+    text-align: center;//coloca tudo no centro
+}
+
+.list-inline {
+    display: inline-block;
+    padding-top: 5%;
+}
+
+.list-inline-item {
+    border: 1px solid black;
+}
+
 #tela {
     width: auto;
     height: 800px;
-    background-image: url("../img/DESING_TOTEN INTERATIVO3.jpg");//local de acordo com o style.css
+    background-image: url("../img/fundo.jpg");//local de acordo com o style.css
     background-repeat: no-repeat;
     background-size: 100%;
-    border: 1px solid black;
+    color: white;
 }
