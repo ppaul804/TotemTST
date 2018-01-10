@@ -1,5 +1,10 @@
 body {
-    text-align: center;//coloca tudo no centro
+    text-align: center;/*coloca tudo no centro*/
+    background-color: gray;
+}
+
+img {
+    width: 100%;
 }
 
 .list-inline {
@@ -14,8 +19,22 @@ body {
 #tela {
     width: auto;
     height: 800px;
-    background-image: url("../img/fundo.jpg");//local de acordo com o style.css
+    background-image: url("../img/fundo.jpg");/*local de acordo com o style.css*/
     background-repeat: no-repeat;
     background-size: 100%;
-    color: white;
+    color: white;/*cor de todas as letras*/
+}
+
+#menu-inicial {
+    /*display: block;*/
+}
+
+#menu-inicial-botao {
+    border: 1px solid black;
+    width: 10%;
+    height: 10%;
+}
+
+#menu-inicial-lista {
+    display: none;
 }
