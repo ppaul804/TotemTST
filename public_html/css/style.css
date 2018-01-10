@@ -16,6 +16,20 @@ img {
     border: 1px solid black;
 }
 
+.menu-inicial {
+    /*display: block;*/
+}
+
+.menu-inicial-botao {
+    border: 1px solid black;
+    width: 10%;
+    height: 10%;
+}
+
+.menu-inicial-lista {
+    display: none;
+}
+
 #tela {
     width: auto;
     height: 800px;
@@ -23,18 +37,4 @@ img {
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;/*cor de todas as letras*/
-}
-
-#menu-inicial {
-    /*display: block;*/
-}
-
-#menu-inicial-botao {
-    border: 1px solid black;
-    width: 10%;
-    height: 10%;
-}
-
-#menu-inicial-lista {
-    display: none;
 }
