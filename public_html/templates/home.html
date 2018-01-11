@@ -1,46 +1,46 @@
 <script>
 //    Código Efeito Toggle
-    $(document).ready(function(){
-        $('#botao-ori').click(function(){
+    $(document).ready(function() {
+        $('#botao-ori').click(function() {
             $('#botao-ori-lista').animate({
                 height: 'toggle'
             });
-        }); 
+        });
     });
-    $(document).ready(function(){
-        $('#botao-cnt').click(function(){
+    $(document).ready(function() {
+        $('#botao-cnt').click(function() {
             $('#botao-cnt-lista').animate({
                 height: 'toggle'
             });
-        }); 
+        });
     });
-    $(document).ready(function(){
-        $('#botao-jt').click(function(){
+    $(document).ready(function() {
+        $('#botao-jt').click(function() {
             $('#botao-jt-lista').animate({
                 height: 'toggle'
             });
-        }); 
+        });
     });
-    $(document).ready(function(){
-        $('#botao-tst').click(function(){
+    $(document).ready(function() {
+        $('#botao-tst').click(function() {
             $('#botao-tst-lista').animate({
                 height: 'toggle'
             });
-        }); 
+        });
     });
-    $(document).ready(function(){
-        $('#botao-csjt').click(function(){
+    $(document).ready(function() {
+        $('#botao-csjt').click(function() {
             $('#botao-csjt-lista').animate({
                 height: 'toggle'
             });
-        }); 
+        });
     });
-    $(document).ready(function(){
-        $('#botao-curi').click(function(){
+    $(document).ready(function() {
+        $('#botao-curi').click(function() {
             $('#botao-curi-lista').animate({
                 height: 'toggle'
             });
-        }); 
+        });
     });
 //    Fim Código Efeito Toggle
 </script>
@@ -48,13 +48,16 @@
 <!--<a href="#!/criacao-cnt">A Criação do CNT</a> <- Modelo de link-->
 
 <div class="home">
-    
+    <!--__________________________________________________________________________________________________________________ -->
     <ul class="list-inline">
-        
+
         <!--____________________ Botão Origem e Evolução do Trabalho ____________________-->
-        <li id="botao-ori" class="home-botao">
-            <h6>Origem e Evolução do Trabalho</h6>
-            <img src="img/origem-evolucao.jpg" alt="Origem e Evolução do Trabalho" /><!--Cabeçalho-->
+        <li class="home-botao">
+            <!--nome e imagem dentro de um div-->
+            <div id="botao-ori">
+                <h6>Origem e Evolução do Trabalho</h6>
+                <img src="img/origem-evolucao.jpg" alt="Origem e Evolução do Trabalho" /><!--Cabeçalho-->
+            </div>
             <ul id="botao-ori-lista" class="home-lista list-unstyled">
                 <li><a href="#">História do Trabalho no Brasil</a></li>
                 <li><a href="#">Legislação Trabalhista</a></li>
@@ -76,7 +79,7 @@
                 <li><a href="#"></a></li>
             </ul>
         </li>
-        
+
         <!--____________________ Botão Justiça do Trabalho ____________________-->
         <li id="botao-jt" class="home-botao">
             <h6>Justiça do Trabalho</h6>
@@ -88,7 +91,7 @@
                 <li><a href="#"></a></li>
             </ul>
         </li>
-        
+
         <!--____________________ Botão Tribunal Superior do Trabalho ____________________-->
         <li id="botao-tst" class="home-botao">
             <h6>TST</h6>
@@ -100,7 +103,7 @@
                 <li><a href="#"></a></li>
             </ul>
         </li>
-        
+
         <!--____________________ Botão Conselho Superior da Justiça do Trabalho ____________________-->
         <li id="botao-csjt" class="home-botao">
             <h6>CSJT</h6>
@@ -112,7 +115,7 @@
                 <li><a href="#">Atividades</a></li>
             </ul>
         </li>
-        
+
         <!--____________________ Botão Curiosidades ____________________-->
         <li id="botao-curi" class="home-botao">
             <h6>Curiosidades</h6>
@@ -122,6 +125,6 @@
                 <li><a href="#">Você Sabia?</a></li>
             </ul>
         </li>
-        
+
     </ul><!-- Fim lista inline dos botões -->
 </div>

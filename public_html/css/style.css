@@ -6,15 +6,6 @@ body {
     background-color: gray;
 }
 
-.list-inline {
-    border: 1px solid pink;
-    display: inline-block;/*obrigatório para deixar uma lista em linha única*/
-}
-
-.list-inline-item {
-    border: 1px solid black;
-}
-
 /*.clearfix::after {
     content: "";
     clear: both;
@@ -23,15 +14,19 @@ body {
 
 /*MENU HOME*/
 .home {
-    border: 1px solid white;
+    border: 1px solid black;
 }
 .home-botao {
-    border: 1px solid yellow;
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 100%;
 }
 .home-lista {
     /*display: none;*/
+}
+
+.home > ul {
+    border: 1px solid black;
+    /*display: inline-block;*/
 }
 
 .home > ul > li {
