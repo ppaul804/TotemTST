@@ -1,7 +1,8 @@
 html, body {
-    height: 100%;}
-body {
+    height: 100%;
     text-align: center;/*coloca tudo no centro*/
+}
+body {
     background-color: gray;
 }
 
@@ -10,6 +11,7 @@ img {
 }
 
 .list-inline {
+    border: 1px solid pink;
     display: inline-block;/*obrigatório para deixar uma lista em linha única*/
 }
 
@@ -17,15 +19,24 @@ img {
     border: 1px solid black;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*MENU INICIAL*/
+.menu-inicial {
+    border: 1px solid white;
+}
 .menu-inicial-botao {
     border: 1px solid yellow;
     width: 175px;
     height: 175px;
 }
 .menu-inicial-lista {
-    display: none;
+    /*display: none;*/
 }
-
 
 #tela {
     width: 100%;
