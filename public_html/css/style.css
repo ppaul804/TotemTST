@@ -11,14 +11,12 @@ ul.list-inline {
     display: inline-flex;
 }
 
-
-
 a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
 
-/*MENU HOME*/
+/*__________MENU HOME___________*/
 .home {
-    border: 1px solid black;
-    padding-top: 2%; 
+    /*border: 1px solid black;*/
+    padding-top: 3%; 
 }
 .home-botao {
     width: 223px;
@@ -29,22 +27,22 @@ a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
 }
 
 .home > ul {/*lista de tópicos do home*/
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .home > ul > li {/*cada tópico do home*/
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .home > ul > li > ul {/*cada lista de subtópicos*/
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 .home > ul > li > div > h4 {/*titulo dos botões*/
     font-stretch: normal;
 }
 .home > ul > li > div > img {/*imagem dos botões*/
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     width: 150px;
     height: 150px
 }
@@ -61,7 +59,7 @@ div#botao-jt,
 div#botao-tst,  
 div#botao-csjt, 
 div#botao-curi {
-    border: 1px solid rgba(84, 101, 122, 0.89);
+    /*border: 1px solid rgba(84, 101, 122, 0.89);*/
     padding: 0%;
     padding-bottom: 10%;
     margin: 0%;
