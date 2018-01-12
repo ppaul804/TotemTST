@@ -9,6 +9,7 @@
             <word>AngularJS</word>
             <word>Bootstrap</word>
             <word>CNT</word>
+            <word>CSJT</word>
             <word>Edge</word>
             <word>encoding</word>
             <word>Explorer</word>
@@ -31,6 +32,7 @@
             <word>shim</word>
             <word>src</word>
             <word>Toten</word>
+            <word>TST</word>
             <word>zoom</word>
         </spellchecker-wordlist>
     </configuration>
