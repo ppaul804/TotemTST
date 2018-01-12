@@ -6,6 +6,10 @@ body {
     background-color: gray;
 }
 
+ul.list-inline {
+    display: inline-flex;
+}
+
 /*.clearfix::after {
     content: "";
     clear: both;
@@ -31,6 +35,12 @@ body {
 
 .home > ul > li {
     border: 1px solid blue;
+}
+
+.home > ul > li > ul > li{
+    border: 1px solid yellow;
+    margin: 5%;
+    padding: 5%;
 }
 
 #tela {
