@@ -31,10 +31,11 @@ a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
     display: none;
 }
 .home > ul {/*lista de tópicos do home*/
-    /*border: 1px solid red;*/
+    /* border: 1px solid red; */
+    padding: 0px;
 }
 .home > ul > li {/*cada tópico do home*/
-    /*border: 1px solid green;*/
+    /* border: 1px solid green; */
 }
 .home > ul > li > ul {/*cada lista de subtópicos*/
     /*border: 1px solid blue;*/
@@ -45,23 +46,30 @@ a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
 .home > ul > li > div > img {/*imagem dos botões*/
     /*border: 1px solid white;*/
     width: 150px;
-    height: 150px
+    height: 150px;
+    margin-bottom: 12%;
 }
 .home > ul > li > ul > a > li {/*subtópico de cada tópico do menu do home*/
     background-color: #204d74;
-    margin: 5%;
+    margin-top: 5%;
     padding: 5%;
 }
 div#botao-orig, div#botao-cnt, div#botao-jt, 
 div#botao-tst, div#botao-csjt, div#botao-curi {
     /*border: 1px solid rgba(84, 101, 122, 0.89);*/
     padding: 0%;
-    padding-bottom: 10%;
     margin: 0%;
 }
 
-/*__________SUBTÓPICO ORIGEM E EVOLUÇÃO DO TRABLAHO___________*/
-/*.orig*/
+div#botao-ori:hover, 
+div#botao-cnt:hover, 
+div#botao-jt:hover, 
+div#botao-tst:hover, 
+div#botao-csjt:hover, 
+div#botao-curi:hover {
+    background-color: rgba(20, 26, 39, 0.8);
+    transition: background 0.5s;
+}
 
 #tela {
     width: 100%;
