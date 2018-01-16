@@ -20,14 +20,30 @@ app.config(['$routeProvider', function ($routeProvider) {
             controller: "HomeCtrl"
         })
         // configuração das rotas bem parecidas para as outras paginas
+        .when("/nav", {
+            templateUrl: "templates/nav.html",
+            controller: "NavCtrl"
+        })
+        .when("/orig", {
+            templateUrl: "templates/1_orig/orig.html",
+            controller: "OrigCtrl"
+        })
         .when("/teste", {
-            templateUrl: "templates/teste.html",
+            templateUrl: "templates/0_teste/teste.html",
             controller: "TesteCtrl"
         });
 }]);
 
 
 app.controller('HomeCtrl', function ($scope, $location) {
+    
+});
+
+app.controller('NavCtrl', function ($scope, $location) {
+    
+});
+ 
+app.controller('OrigCtrl', function ($scope, $location) {
     
 });
  
