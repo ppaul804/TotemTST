@@ -1,6 +1,6 @@
 /**
 * Inicializamos o angular.module com o mesmo nome que definimos na diretiva ng-app
-* E incluímos a dependência do ngRoute 
+* E incluímos a dependência do ngRoute e ngAnimate
 */
 var app = angular.module('toten', ['ngRoute', 'ngAnimate']);
 
@@ -28,6 +28,29 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: "templates/1_orig/orig.html",
             controller: "OrigCtrl"
         })
+        .when("/orig#openModal", {
+            templateUrl: "templates/1_orig/orig.html#openModal",
+        })
+        .when("/cnt", {
+            templateUrl: "templates/2_cnt/cnt.html",
+            controller: "CntCtrl"
+        })
+        .when("/jt", {
+            templateUrl: "templates/3_jt/.html",
+            controller: "JtCtrl"
+        })
+        .when("/tst", {
+            templateUrl: "templates/4_tst/tst.html",
+            controller: "TstCtrl"
+        })
+        .when("/csjt", {
+            templateUrl: "templates/5_csjt/csjt.html",
+            controller: "CsjtCtrl"
+        })
+        .when("/curi", {
+            templateUrl: "templates/6_curi/curi.html",
+            controller: "CuriCtrl"
+        })
         .when("/teste", {
             templateUrl: "templates/0_teste/teste.html",
             controller: "TesteCtrl"
@@ -44,6 +67,26 @@ app.controller('NavCtrl', function ($scope, $location) {
 });
  
 app.controller('OrigCtrl', function ($scope, $location) {
+    
+});
+ 
+app.controller('CntCtrl', function ($scope, $location) {
+    
+});
+ 
+app.controller('JtCtrl', function ($scope, $location) {
+    
+});
+ 
+app.controller('TstCtrl', function ($scope, $location) {
+    
+});
+ 
+app.controller('CsjtCtrl', function ($scope, $location) {
+    
+});
+ 
+app.controller('CuriCtrl', function ($scope, $location) {
     
 });
  

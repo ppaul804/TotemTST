@@ -8,7 +8,6 @@ body {
 }
 
 nav {
-    border: 1px solid black;
     text-align: left;
 }
 
@@ -20,6 +19,7 @@ nav {
     font-size: 12px;
     line-height: 1.428571429;
     border-radius: 15px;
+    margin: 10px;
 }
 .btn-circle.btn-lg {
     width: 50px;
@@ -46,7 +46,6 @@ a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
 
 /*__________MENU HOME___________*/
 .home {
-    /*border: 1px solid black;*/
     padding-top: 3%; 
 }
 .home-botao {
@@ -57,7 +56,6 @@ a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
     display: none;
 }
 .home > ul {/*lista de tópicos do home*/
-    /* border: 1px solid red; */
     padding: 0px;
 }
 .home > ul > li {/*cada tópico do home*/
@@ -86,16 +84,14 @@ div#botao-tst, div#botao-csjt, div#botao-curi {
     padding: 0%;
     margin: 0%;
 }
-
-div#botao-ori:hover, 
-div#botao-cnt:hover, 
-div#botao-jt:hover, 
-div#botao-tst:hover, 
-div#botao-csjt:hover, 
-div#botao-curi:hover {
+div#botao-orig:hover, div#botao-cnt:hover, div#botao-jt:hover, 
+div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
     background-color: rgba(20, 26, 39, 0.8);
     transition: background 0.5s;
 }
+
+/*__________MENU ORIGEM E EVOLUÇÃO DO TRABALHO___________*/
+
 
 #tela {
     width: 100%;
