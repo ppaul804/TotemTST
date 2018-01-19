@@ -1,3 +1,5 @@
+@import "dp/bootstrap.min.css";
+
 html, body {
     height: 100%;
     text-align: center;/*coloca tudo no centro*/
@@ -6,11 +8,17 @@ body {
     padding: 0%;
     background-color: gray;
 }
-
-nav {
-    text-align: left;
+#tela {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fundo.jpg");/*local de acordo com o style.css*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;/*cor de todas as letras*/
+    padding: 0%;
 }
 
+/*__________MENU NAVEGAÇÃO___________*/
 .btn-circle {
     width: 30px;
     height: 30px;
@@ -37,14 +45,15 @@ nav {
     line-height: 1.33;
     border-radius: 35px;
 }
-
-ul.list-inline {
-    display: inline-flex;
+nav {
+    text-align: left;
+    opacity: .5;
 }
 
-a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
-
 /*__________MENU HOME___________*/
+.home > ul.list-inline {
+    display: inline-flex;//deixa o menu alinhado ao topo da tela
+}
 .home {
     padding-top: 3%; 
 }
@@ -74,10 +83,15 @@ a:link, a:visited, a:hover, a:active {color: white; text-decoration: none;}
     margin-bottom: 12%;
 }
 .home > ul > li > ul > a > li {/*subtópico de cada tópico do menu do home*/
+    /*border: 1px solid #269abc;*/
     background-color: #204d74;
     margin-top: 5%;
     padding: 5%;
 }
+.home > ul > li > ul > a:link, a:visited, a:hover, a:active {/*subtópico de cada tópico do menu do home*/
+    color: white; text-decoration: none;
+}
+
 div#botao-orig, div#botao-cnt, div#botao-jt, 
 div#botao-tst, div#botao-csjt, div#botao-curi {
     /*border: 1px solid rgba(84, 101, 122, 0.89);*/
@@ -91,14 +105,13 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
 }
 
 /*__________MENU ORIGEM E EVOLUÇÃO DO TRABALHO___________*/
-
-
-#tela {
+.orig {
+    position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../img/fundo.jpg");/*local de acordo com o style.css*/
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: white;/*cor de todas as letras*/
-    padding: 0%;
 }
+.orig > img {
+    width: 100%;
+    height: 100%;
+}
+

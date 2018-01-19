@@ -1,45 +1,16 @@
 <div ng-include='"templates/nav.html"'></div><!--este código estará dentro de index.html-->
 <div class="orig">
-    Origem e Evolução do Trabalho
-    <ul class="list-unstyled">
-        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Brasil Colônia*</button>
-        <a href="#!/">
-            <li>
-                <!--link para visualização de pdf-->
-                <button class="btn btn-default">Brasil Colônia</button>
-            </li>
-        </a>
-        <a href="#!/">
-            <li>
-                <!--link para visualização de pdf-->
-                <button class="btn btn-default">Brasil Império</button>
-            </li>
-        </a>
-        <a href="#!/">
-            <li>
-                <!--link para visualização de pdf-->
-                <button class="btn btn-default">Brasil República</button>
-            </li>
-        </a>
-    </ul>
+    <img src="img/orig-menu.jpg" alt=""/>
+    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Brasil Colônia</button>
 </div>
+
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog" style="color: black">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
 
-        <!-- Modal content-->
+        <!-- Conteúdo do Modal -->
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Modal Header</h4>
-            </div>
-            <div class="modal-body">
-                <p>Some text in the modal.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
+            <div ng-include='"templates/1_orig/colonia.html"'></div><!--este código estará dentro de index.html-->
         </div>
-
     </div>
 </div>
