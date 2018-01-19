@@ -28,9 +28,6 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: "templates/1_orig/orig.html",
             controller: "OrigCtrl"
         })
-        .when("/orig#openModal", {
-            templateUrl: "templates/1_orig/orig.html#openModal",
-        })
         .when("/cnt", {
             templateUrl: "templates/2_cnt/cnt.html",
             controller: "CntCtrl"
