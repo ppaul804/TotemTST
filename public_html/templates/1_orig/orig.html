@@ -1,13 +1,23 @@
 <div ng-include='"templates/nav.html"'></div><!--este código estará dentro de index.html-->
 <div class="orig">
-    <img src="img/orig-menu.jpg" alt=""/>
-    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Brasil Colônia</button>
+    <img src="img/orig-menu.jpg" alt="orig-menu"/>
+
+    <!--divs que são os "links" para o modal (janela)-->
+    <div data-toggle="modal" data-target="#myModal" title="Brasil Colônia" style="position: absolute; left: 6%; top: 22.28%; width: 26.31%; height: 13.56%; z-index: 2;"></div>
+    <div data-toggle="modal" data-target="#myModal" title="Brasil Império" style="position: absolute; left: 6.31%; top: 47.94%; width: 26.15%; height: 13.56%; z-index: 2;"></div>
+    <div data-toggle="modal" data-target="#myModal" title="Brasil República" style="position: absolute; left: 6.15%; top: 73.85%; width: 26.15%; height: 12.35%; z-index: 2;"></div>
+    
+    <!--divs que são os "links" para o modal (janela) para os vídeos-->
+    <a href="#myModal" title="Vídeo Brasil Colônia" style="position: absolute; left: 69.08%; top: 17.92%; width: 22.92%; height: 21.55%; z-index: 2;"></a>
+    <a href="#myModal" title="Vídeo Brasil Império" style="position: absolute; left: 69.38%; top: 42.62%; width: 23.23%;  height: 21.31%; z-index: 2;"></a>
+    <a href="#myModal" title="Vídeo Brasil República" style="position: absolute; left: 69.38%; top: 67.07%; width: 23.54%; height: 21.31%; z-index: 2;"></a>
+    
 </div>
 
+<!--<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Brasil Colônia</button>-->
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog" style="color: black">
     <div class="modal-dialog modal-lg">
-
         <!-- Conteúdo do Modal -->
         <div class="modal-content">
             <div ng-include='"templates/1_orig/colonia.html"'></div><!--este código estará dentro de index.html-->
