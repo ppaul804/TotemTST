@@ -1,9 +1,19 @@
 <script>
-    var op;//variável de opção global
+    var op = null;//variável de opção global
+    /**
+     * Define a opção na var global
+     * @param {type} opcao
+     * @returns {undefined}
+     */
     function setOpcao(opcao) {
-        op = opcao;//define a opção na var global
+        op = opcao;
     }
-    function setConteudo(){
+    /**
+     * Define o conteúdo do modal de acordo com 
+     * a variável op
+     * @returns {undefined}
+     */
+    function setConteudo() {
         var content;//variável de conteúdo
         var myModal = $('#myModal');//referencia ao modal (janela) da página
         switch (op) {
@@ -24,29 +34,54 @@
                 break;
         }//fim switch
     }//fim função setConteudo
+    
+    var $modal = $('.modal'), modalObj = null;
+
+    $('.brasilCol').on('click', function (e) {//ao clicar em alguma lugar no menu
+        $modal.css({top: e.clientY, left: e.clientX, transform: 'scale(0.1, 0.1)'});
+        modalObj = $modal.modal();
+        $modal.css({top: '', left: '', transform: ''});
+    });
+
+    $modal.on('hide', function () {
+        $modal.css({top: 0, left: 0, transform: 'scale(0.1, 0.1)'});
+        console.log($modal);
+        console.log($modal.css('top'));
+        if ($modal.css('top') != "0px") {
+            setTimeout(function () {
+                $modal.modal('hide');
+            }, 750);
+            return false;
+        }
+    });
+
+    $modal.on('hidden', function () {
+        $modal.css({top: '', left: '', transform: ''});
+        console.log("hidden");
+    });
 </script>
 <div ng-include='"templates/nav.html"'></div><!--este código estará dentro de index.html-->
 <div class="orig">
     <img src="img/orig-menu.jpg" alt="orig-menu"/>
 
     <!--divs que são os "links" para o modal (janela)-->
-    <div data-toggle="modal" data-target="#myModal" title="Brasil Colônia" style="position: absolute; left: 6%; top: 22.28%; width: 26.31%; height: 13.56%; z-index: 2;" onclick="setOpcao('col'), setConteudo()"></div>
+    <div id="brasilCol" data-toggle="modal" data-target="#myModal" title="Brasil Colônia" style="position: absolute; left: 6%; top: 22.28%; width: 26.31%; height: 13.56%; z-index: 2;" onclick="setOpcao('col'), setConteudo()"></div>
     <div data-toggle="modal" data-target="#myModal" title="Brasil Império" style="position: absolute; left: 6.31%; top: 47.94%; width: 26.15%; height: 13.56%; z-index: 2;" onclick="setOpcao('imp'), setConteudo()"></div>
     <div data-toggle="modal" data-target="#myModal" title="Brasil República" style="position: absolute; left: 6.15%; top: 73.85%; width: 26.15%; height: 12.35%; z-index: 2;" onclick="setOpcao('rep'), setConteudo()"></div>
 
     <!--divs que são os "links" para o modal (janela) para os vídeos-->
-    <a href="#myModal" title="Vídeo Brasil Colônia" style="position: absolute; left: 69.08%; top: 17.92%; width: 22.92%; height: 21.55%; z-index: 2;"></a>
-    <a href="#myModal" title="Vídeo Brasil Império" style="position: absolute; left: 69.38%; top: 42.62%; width: 23.23%;  height: 21.31%; z-index: 2;"></a>
-    <a href="#myModal" title="Vídeo Brasil República" style="position: absolute; left: 69.38%; top: 67.07%; width: 23.54%; height: 21.31%; z-index: 2;"></a>
+    <div href="#myModal" title="Vídeo Brasil Colônia" style="position: absolute; left: 69.08%; top: 17.92%; width: 22.92%; height: 21.55%; z-index: 2;"></div>
+    <div href="#myModal" title="Vídeo Brasil Império" style="position: absolute; left: 69.38%; top: 42.62%; width: 23.23%;  height: 21.31%; z-index: 2;"></div>
+    <div href="#myModal" title="Vídeo Brasil República" style="position: absolute; left: 69.38%; top: 67.07%; width: 23.54%; height: 21.31%; z-index: 2;"></div>
 
 </div>
 
-<!--<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Brasil Colônia</button>-->
 <!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog" style="color: black">
-    <div class="modal-dialog modal-lg">
+<div class="modal" id="myModal" role="dialog" style="color: black">
+    <div class="modal-dialog">
         <!-- Conteúdo do Modal -->
-        <div id="conteudoOrig" class="modal-content">
+        <div class="modal-content">
+            <!--Aqui vai o conteúdo da janela-->
         </div>
     </div>
 </div>

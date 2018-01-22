@@ -18,6 +18,15 @@ body {
     padding: 0%;
 }
 
+/*Janela do bootstrap*/
+.modal {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.modal-dialog{
+    width: 95%;
+}
+
 /*__________MENU NAVEGAÇÃO___________*/
 .btn-circle {
     width: 30px;
