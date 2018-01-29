@@ -16,6 +16,7 @@ body {
     color: white;/*cor de todas as letras*/
 }
 
+/*__________MODAL (POP-UP)___________*/
 .modal.fade{
   opacity:1;
 }
