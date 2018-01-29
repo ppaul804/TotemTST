@@ -16,6 +16,15 @@ body {
     color: white;/*cor de todas as letras*/
 }
 
+.modal.fade{
+  opacity:1;
+}
+.modal.fade .modal-dialog {
+   -webkit-transform: translate(0);
+   -moz-transform: translate(0);
+   transform: translate(0);
+}
+
 /*__________MENU NAVEGACAO___________*/
 .btn-circle {
     width: 30px; height: 30px;
@@ -100,9 +109,9 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
 .orig > .divBotoes {
     border: 1px dotted black;
     position: relative; /*relative como referencia de coordenadas os absolutes a segui*/
-    background: url(../img/orig-menu-botoes.png) center center no-repeat; 
+    background: url(../img/orig-menu-botoes.png) center center no-repeat;
     background-size: 100% 100%;
-    height: -webkit-fill-available
+    height: 100vh;/*1vh e relativo a 1% da altura da tela do navegador*/
 }
 .orig > .divBotoes > div {/*os links para os pop-ups (modal)*/
     border: 1px solid blue;
