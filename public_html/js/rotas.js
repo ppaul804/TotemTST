@@ -24,6 +24,10 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: "templates/nav.html",
             controller: "NavCtrl"
         })
+        .when("/pdf", {
+            templateUrl: "pdf/web/wiewer.html",
+            controller: "PdfCtrl"
+        })
         .when("/orig", {
             templateUrl: "templates/1_orig/orig.html",
             controller: "OrigCtrl"
@@ -60,6 +64,10 @@ app.controller('HomeCtrl', function ($scope, $location) {
 });
 
 app.controller('NavCtrl', function ($scope, $location) {
+    
+});
+
+app.controller('PdfCtrl', function ($scope, $location) {
     
 });
  

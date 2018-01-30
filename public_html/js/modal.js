@@ -7,8 +7,3 @@ $('#myModal').on('show.bs.modal', function (e) {
 $('#myModal').on('hide.bs.modal', function (e) {
       testAnim("zoomOut");
 })
-
-$(".divBotoes").on("click",function(e){
-    alert(e.pageX + " " + e.pageY);  
-    
-});
