@@ -26,6 +26,12 @@ body {
    transform: translate(0);
 }
 
+/*__________PDF___________*/
+.pdf {
+    width: 90vw;
+    height: 90vh;
+}
+
 /*__________MENU NAVEGACAO___________*/
 .btn-circle {
     width: 30px; height: 30px;
