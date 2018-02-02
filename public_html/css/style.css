@@ -127,10 +127,13 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
 
 /*__________MENU LEGISLACAO TRABALHISTA___________*/
 .legiTrab {
-    color: black;//cor do texto
+    color: black;/*cor do texto*/
 }
 .legiTrab > .listaLeis {
+    text-align: left;
     -moz-column-count:2;
     column-count:2;
 }
-
+.legiTrab > .listaLeis > ul > li {/*cada elemento da lista*/
+    border: 1px dotted;
+}

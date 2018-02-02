@@ -67,11 +67,6 @@ app.config(['$routeProvider', function($routeProvider) {
                     controller: "CuriCtrl"
                 })
 
-
-                .when("/teste", {
-                    templateUrl: "templates/0_teste/teste.html",
-                    controller: "TesteCtrl"
-                });
     }]);
 
 
@@ -106,7 +101,4 @@ app.controller('CsjtCtrl', function($scope, $location) {
 });
 
 app.controller('CuriCtrl', function($scope, $location) {
-});
-
-app.controller('TesteCtrl', function($scope, $location) {
 });
