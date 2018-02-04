@@ -133,6 +133,8 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
     text-align: left;
     -moz-column-count:2;
     column-count:2;
+    -moz-column-rule: 1px solid black;
+    column-rule: 1px solid black;
 }
 .legiTrab > .listaLeis > ul > li {/*cada elemento da lista*/
     border: 1px dotted;
