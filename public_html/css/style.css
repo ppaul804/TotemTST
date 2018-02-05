@@ -132,10 +132,13 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
 .legiTrab > .listaLeis {
     text-align: left;
     -moz-column-count:2;
-    column-count:2;
+    column-count: 4;
     -moz-column-rule: 1px solid black;
     column-rule: 1px solid black;
+    column-gap: 10px;
 }
 .legiTrab > .listaLeis > ul > li {/*cada elemento da lista*/
     border: 1px dotted;
+    padding: 6px;
+    margin: 20px;
 }
