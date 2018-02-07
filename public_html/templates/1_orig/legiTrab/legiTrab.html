@@ -1,5 +1,17 @@
 <style>body{background-image:url(templates/1_orig/legiTrab/fundo.jpg)}</style><!--muda o fundo da tela-->
 <script>
+    function showCoords(event) {
+        var x = event.clientX;
+        var y = event.clientY;
+        var coords = "X: " + x + ", Y: " + y;
+        document.getElementById("demo").innerHTML = coords;
+//        document.getElementById("modal-dialog").style.position = "absolute";
+        document.getElementById("modal-dialog").style.top = "000px";
+        document.getElementById("modal-dialog").style.left = "000px";
+//        document.getElementById("modal-content").style.position = "absolute";
+        document.getElementById("modal-content").style.top = "000px";
+        document.getElementById("modal-content").style.left = "000px";
+    }
     /**
      * Define o conteúdo do modal de acordo com 
      * a variável op
@@ -271,20 +283,17 @@
                     $(myModal).find('.modal-body').html(content);//põe o conteúdo na classe .modal-content
                 }, 'html');
                 break;
-            
-            default:
-                alert('EM IMPLEMENTAÇÃO')
-                break;
         }//fim switch
     }//fim função setConteudo
 </script>
 <script src="js/modal.js" type="text/javascript"></script><!-- Script do efeito do modal -->
 
 <div ng-include='"templates/nav.html"'></div><!--este código estará dentro de index.html-->
+<p id="demo">coordenadas</p>
 <div class="legiTrab">
     <h1 style="margin-top: 5%">Legislação do Trabalho</h1>
 
-    <div class="listaLeis">
+    <div class="listaLeis" onclick="showCoords(event)">
         <ul class="list-unstyled">
             <li role="button" data-toggle="modal" data-target="#myModal" onclick="setConteudo('l9_1830')">
                 Lei de 13 de setembro de 1830 – primeira legislação a regular os contratos de locação e prestação de serviços de brasileiros e estrangeiros no século XIX.
@@ -450,8 +459,8 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color: black">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
+    <div id="modal-dialog" class="modal-dialog" role="document">
+        <div id="modal-content" class="modal-content">
             <div class="modal-body">
                 <!--Aqui vai o conteúdo da janela-->
             </div>
