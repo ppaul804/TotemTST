@@ -57,26 +57,26 @@ nav {
 
 /*__________MENU HOME___________*/
 .home > ul.list-inline {
-    display: inline-flex;//deixa o menu alinhado ao topo da tela
+    display: inline-flex;/*deixa o menu alinhado ao topo da tela*/
 }
 .home {
+    /*border: 1px dotted black;*/
     padding-top: 3%; 
 }
-.home-botao {
+.home-botao {/*botao e sua lista de topicos*/
+    /*border: 1px dotted yellow;*/
     width: 223px;
     height: 100%;
 }
-.home-lista {
+.home-lista {/*lista de topicos de cada botao*/
+    /*border: 1px dotted maroon;*/
     display: none;
-}
-.home > ul {/*lista de topicos do home*/
-    padding: 0px;
-}
-.home > ul > li {/*cada topico do home*/
-    /* border: 1px solid green; */
 }
 .home > ul > li > ul {/*cada lista de subtopicos*/
     /*border: 1px solid blue;*/
+}
+.home > ul {/*lista de topicos do home*/
+    padding: 0px;
 }
 .home > ul > li > div > h4 {/*titulo dos botoes*/
     font-stretch: normal;
@@ -102,6 +102,10 @@ div#botao-tst, div#botao-csjt, div#botao-curi {
     /*border: 1px solid rgba(84, 101, 122, 0.89);*/
     padding: 0%;
     margin: 0%;
+}
+div#botao-orig, div#botao-cnt, div#botao-jt, 
+div#botao-tst, div#botao-csjt, div#botao-curi > h1 {
+    
 }
 div#botao-orig:hover, div#botao-cnt:hover, div#botao-jt:hover, 
 div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
