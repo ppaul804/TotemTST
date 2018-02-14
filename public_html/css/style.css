@@ -17,6 +17,21 @@ body {
     color: white;/*cor de todas as letras*/
 }
 
+.elementToFadeInAndOut {
+    opacity: 0;
+    -o-animation: fade 5s linear;
+    -moz-animation: fade 5s linear;
+    -webkit-animation: fade 5s linear;
+    animation: fade 5s linear;
+}
+@-webkit-keyframes fade {
+  50% { opacity: 1; }
+}
+
+@keyframes fade {
+  50% { opacity: 1; }
+}
+
 /*__________MODAL (POP-UP)___________*/
 .modal.fade{
     opacity:1;
@@ -105,7 +120,7 @@ div#botao-tst, div#botao-csjt, div#botao-curi {
 }
 div#botao-orig, div#botao-cnt, div#botao-jt, 
 div#botao-tst, div#botao-csjt, div#botao-curi > h1 {
-    
+
 }
 div#botao-orig:hover, div#botao-cnt:hover, div#botao-jt:hover, 
 div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
@@ -135,10 +150,8 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
 }
 .legiTrab > .listaLeis {
     text-align: left;
-    -moz-column-count:2;
-    column-count: 4;
-    -moz-column-rule: 1px solid black;
-    column-rule: 1px solid black;
+    -moz-column-count:2;    column-count: 2;
+    -moz-column-rule: 1px solid black;    column-rule: 1px solid black;
     column-gap: 10px;
 }
 .legiTrab > .listaLeis > ul > li {/*cada elemento da lista*/
