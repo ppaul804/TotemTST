@@ -22,14 +22,15 @@ body {
     -o-animation: fade 5s linear;
     -moz-animation: fade 5s linear;
     -webkit-animation: fade 5s linear;
-    animation: fade 5s linear;
+    animation: fade 2s linear;
 }
 @-webkit-keyframes fade {
   50% { opacity: 1; }
 }
 
 @keyframes fade {
-  50% { opacity: 1; }
+  25% { opacity: 1; }
+  75% { opacity: 1; }
 }
 
 /*__________MODAL (POP-UP)___________*/
