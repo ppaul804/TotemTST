@@ -10,6 +10,10 @@ body {
     background: url(../img/fundo.jpg) center center no-repeat fixed; /*imagem de fundo*/
     background-size: cover;
 }
+h1 {
+    text-transform: uppercase;
+
+}
 #tela {
     padding: 0%;
     width: 100%;
@@ -17,6 +21,7 @@ body {
     color: white;/*cor de todas as letras*/
 }
 
+/*__________Animação Bem Vindo ao TST___________*/
 .elementToFadeInAndOut {
     opacity: 0;
     -o-animation: fade 5s linear;
@@ -25,12 +30,11 @@ body {
     animation: fade 2s linear;
 }
 @-webkit-keyframes fade {
-  50% { opacity: 1; }
+    50% { opacity: 1; }
 }
-
 @keyframes fade {
-  25% { opacity: 1; }
-  75% { opacity: 1; }
+    25% { opacity: 1; }
+    75% { opacity: 1; }
 }
 
 /*__________MODAL (POP-UP)___________*/
@@ -150,13 +154,16 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
     color: black;/*cor do texto*/
 }
 .legiTrab > .listaLeis {
-    text-align: left;
-    -moz-column-count:2;    column-count: 2;
-    -moz-column-rule: 1px solid black;    column-rule: 1px solid black;
+    text-align: justify;
+    -moz-column-count: 2;
+    column-count: 2;
+    -moz-column-rule: 2px solid gray;    
+    column-rule: 2px solid gray;
     column-gap: 10px;
 }
 .legiTrab > .listaLeis > ul > li {/*cada elemento da lista*/
-    border: 1px dotted;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
     padding: 6px;
     margin: 20px;
 }
