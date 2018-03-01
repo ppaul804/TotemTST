@@ -42,10 +42,22 @@ app.config(['$routeProvider', function($routeProvider) {
                     controller: "LegiTrabCtrl"
                 })
                 // 2 Conselho Nacional do Trabalho _____________________________________
-                .when("/cnt", {
-                    templateUrl: "templates/2_cnt/cnt.html",
-                    controller: "CntCtrl"
+                // 2.1 A Criação do CNT
+                .when("/cnt/criaCnt", {
+                    templateUrl: "templates/2_cnt/criaCnt/criaCnt.html",
+                    controller: "CriaCntCtrl"
                 })
+                // 2.2 Organograma Evolutivo
+                .when("/cnt/orgaEvol", {
+                    templateUrl: "templates/2_cnt/orgaEvol/orgaEvol.html",
+                    controller: "OrgaEvolCtrl"
+                })
+                // 2.3 Ex-Presidentes
+                .when("/cnt/exPres", {
+                    templateUrl: "templates/2_cnt/exPres/exPres.html",
+                    controller: "ExPresCtrl"
+                })
+                
                 // 3 Justiça do Trabalho _______________________________________________
                 .when("/jt", {
                     templateUrl: "templates/3_jt/.html",
@@ -85,10 +97,13 @@ app.controller('HistTrabCtrl', function($scope, $location) {
 app.controller('LegiTrabCtrl', function($scope, $location) {
 });
 
-app.controller('OrigCtrl', function($scope, $location) {
+app.controller('CriaCntCtrl', function($scope, $location) {
 });
 
-app.controller('CntCtrl', function($scope, $location) {
+app.controller('OrgaEvolCtrl', function($scope, $location) {
+});
+
+app.controller('ExPresCtrl', function($scope, $location) {
 });
 
 app.controller('JtCtrl', function($scope, $location) {
