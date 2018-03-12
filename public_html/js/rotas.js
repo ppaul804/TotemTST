@@ -57,26 +57,53 @@ app.config(['$routeProvider', function($routeProvider) {
                     templateUrl: "templates/2_cnt/exPres/exPres.html",
                     controller: "ExPresCtrl"
                 })
-                
                 // 3 Justiça do Trabalho _______________________________________________
-                .when("/jt", {
-                    templateUrl: "templates/3_jt/.html",
-                    controller: "JtCtrl"
+                // 3.1 No Mundo
+                .when("/jt/noMund", {
+                    templateUrl: "templates/3_jt/noMund/noMund.html",
+                    controller: "NoMundCtrl"
+                })
+                // 3.2 No Brasil
+                .when("/jt/noBras", {
+                    templateUrl: "templates/3_jt/noBras/noBras.html",
+                    controller: "NoBrasCtrl"
+                })
+                // 3.3 Atores da Justiça do Trabalho
+                .when("/jt/ator", {
+                    templateUrl: "templates/3_jt/ator/ator.html",
+                    controller: "AtorCtrl"
                 })
                 // 4 Tribunal Superior do Trabalho _____________________________________
-                .when("/tst", {
-                    templateUrl: "templates/4_tst/tst.html",
-                    controller: "TstCtrl"
+                // 4.1 Fatos Históricos
+                .when("/tst/fatoHist", {
+                    templateUrl: "templates/4_tst/fatoHist/fatoHist.html",
+                    controller: "FatoHistCtrl"
                 })
-                // 5 Conselho Superior da Justiça do Trabalho __________________________
-                .when("/csjt", {
-                    templateUrl: "templates/5_csjt/csjt.html",
-                    controller: "CsjtCtrl"
+                // 4.2 Programas Institucionais
+                .when("/tst/progInst", {
+                    templateUrl: "templates/4_tst/progInst/progInst.html",
+                    controller: "ProgInstCtrl"
                 })
-                // 6 Curiosidades ______________________________________________________
-                .when("/curi", {
-                    templateUrl: "templates/6_curi/curi.html",
-                    controller: "CuriCtrl"
+                // 4.3 70 Anos em Acórdãos
+                .when("/tst/70AnosAcor", {
+                    templateUrl: "templates/4_tst/70AnosAcor/70AnosAcor.html",
+                    controller: "70AnosAcorCtrl"
+                })
+                // 5 Curiosidades ______________________________________________________
+                // 5.1 Justiça e Números
+                .when("/curi/justNume", {
+                    templateUrl: "templates/6_curi/justNume/justNume.html",
+                    controller: "JustNumeCtrl"
+                })
+                // 5.2 Dicionário de profissões pouco comuns
+                .when("/curi/diciProf", {
+                    templateUrl: "templates/6_curi/diciProf/diciProf.html",
+                    controller: "DiciProfCtrl"
+                })
+                // 5.3 Você sabia?
+                .when("/curi/voceSabi", {
+                    templateUrl: "templates/6_curi/voceSabi/voceSabi.html",
+                    controller: "VoceSabiCtrl"
                 })
 
     }]);
@@ -106,14 +133,30 @@ app.controller('OrgaEvolCtrl', function($scope, $location) {
 app.controller('ExPresCtrl', function($scope, $location) {
 });
 
-app.controller('JtCtrl', function($scope, $location) {
+app.controller('NoMundCtrl', function($scope, $location) {
 });
 
-app.controller('TstCtrl', function($scope, $location) {
+app.controller('NoBrasCtrl', function($scope, $location) {
 });
 
-app.controller('CsjtCtrl', function($scope, $location) {
+app.controller('AtorCtrl', function($scope, $location) {
 });
 
-app.controller('CuriCtrl', function($scope, $location) {
+app.controller('FatoHistCtrl', function($scope, $location) {
 });
+
+app.controller('ProgInstCtrl', function($scope, $location) {
+});
+
+app.controller('70AnosAcorCtrl', function($scope, $location) {
+});
+
+app.controller('JustNumeCtrl', function($scope, $location) {
+});
+
+app.controller('DiciProfCtrl', function($scope, $location) {
+});
+
+app.controller('VoceSabiCtrl', function($scope, $location) {
+});
+
