@@ -53,9 +53,9 @@ app.config(['$routeProvider', function($routeProvider) {
                     controller: "OrgaEvolCtrl"
                 })
                 // 2.3 Ex-Presidentes
-                .when("/cnt/exPres", {
-                    templateUrl: "templates/2_cnt/exPres/exPres.html",
-                    controller: "ExPresCtrl"
+                .when("/cnt/cntExPres", {
+                    templateUrl: "templates/2_cnt/cntExPres/cntExPres.html",
+                    controller: "CntExPresCtrl"
                 })
                 // 3 Justiça do Trabalho _______________________________________________
                 // 3.1 No Mundo
@@ -89,18 +89,34 @@ app.config(['$routeProvider', function($routeProvider) {
                     templateUrl: "templates/4_tst/70AnosAcor/70AnosAcor.html",
                     controller: "70AnosAcorCtrl"
                 })
-                // 5 Curiosidades ______________________________________________________
-                // 5.1 Justiça e Números
+                // 5 Conselho Superior da Justiça do Trabalho __________________________
+                // 5.1 Criação 
+                .when("/csjt/cria", {
+                    templateUrl: "templates/5_csjt/cria/cria.html",
+                    controller: "CriaCtrl"
+                })
+                // 5.2 Ex-Presidentes
+                .when("/csjt/csjtExPres", {
+                    templateUrl: "templates/5_csjt/csjtExPres/csjtExPres.html",
+                    controller: "CsjtExPresCtrl"
+                })
+                // 5.3 Membros
+                .when("/csjt/memb", {
+                    templateUrl: "templates/5_csjt/memb/memb.html",
+                    controller: "MembCtrl"
+                })
+                // 6 Curiosidades ______________________________________________________
+                // 6.1 Justiça e Números
                 .when("/curi/justNume", {
                     templateUrl: "templates/6_curi/justNume/justNume.html",
                     controller: "JustNumeCtrl"
                 })
-                // 5.2 Dicionário de profissões pouco comuns
+                // 6.2 Dicionário de profissões pouco comuns
                 .when("/curi/diciProf", {
                     templateUrl: "templates/6_curi/diciProf/diciProf.html",
                     controller: "DiciProfCtrl"
                 })
-                // 5.3 Você sabia?
+                // 6.3 Você sabia?
                 .when("/curi/voceSabi", {
                     templateUrl: "templates/6_curi/voceSabi/voceSabi.html",
                     controller: "VoceSabiCtrl"
@@ -130,7 +146,7 @@ app.controller('CriaCntCtrl', function($scope, $location) {
 app.controller('OrgaEvolCtrl', function($scope, $location) {
 });
 
-app.controller('ExPresCtrl', function($scope, $location) {
+app.controller('CntExPresCtrl', function($scope, $location) {
 });
 
 app.controller('NoMundCtrl', function($scope, $location) {
@@ -152,6 +168,15 @@ app.controller('70AnosAcorCtrl', function($scope, $location) {
 });
 
 app.controller('JustNumeCtrl', function($scope, $location) {
+});
+
+app.controller('CriaCtrl', function($scope, $location) {
+});
+
+app.controller('CsjtExPresCtrl', function($scope, $location) {
+});
+
+app.controller('MembCtrl', function($scope, $location) {
 });
 
 app.controller('DiciProfCtrl', function($scope, $location) {
