@@ -12,17 +12,17 @@
         var myModal = $('#myModal');//referencia ao modal (janela) da página
         switch (op) {
             case 'col':
-                $.get("templates/1_orig/histTrab/colonia.html", function(content) {//variável content recebe o conteúdo
+                $.get("templates/1_orig/histTrab/colonia/colonia.html", function(content) {//variável content recebe o conteúdo
                     $(myModal).find('.modal-content').html(content);//põe o conteúdo na classe .modal-content
                 }, 'html');
                 break;
             case 'imp':
-                $.get("templates/1_orig/histTrab/imperio.html", function(content) {//variável content recebe o conteúdo
+                $.get("templates/1_orig/histTrab/imperio/imperio.html", function(content) {//variável content recebe o conteúdo
                     $(myModal).find('.modal-content').html(content);//põe o conteúdo na classe .modal-content
                 }, 'html');
                 break;
             case 'rep':
-                $.get("templates/1_orig/histTrab/republica.html", function(content) {//variável content recebe o conteúdo
+                $.get("templates/1_orig/histTrab/republica/republica.html", function(content) {//variável content recebe o conteúdo
                     $(myModal).find('.modal-content').html(content);//põe o conteúdo na classe .modal-content
                 }, 'html');
                 break;
