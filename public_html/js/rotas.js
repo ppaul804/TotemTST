@@ -52,6 +52,16 @@ app.config(['$routeProvider', function($routeProvider) {
                     templateUrl: "templates/2_cnt/orgaEvol/orgaEvol.html",
                     controller: "OrgaEvolCtrl"
                 })
+                // 2.2.1 Decreto 16.027, de 30-04-1923
+                .when("/cnt/orgaEvol/d16027_30_04_1923", {
+                    templateUrl: "templates/2_cnt/orgaEvol/d16027_30_04_1923/d16027_30_04_1923.html",
+                    controller: "d16027_30_04_1923Ctrl"
+                })
+                // 2.2.2 Decreto 18.074, de 19-01-1928
+                .when("/cnt/orgaEvol/d18074_19_01_1928", {
+                    templateUrl: "templates/2_cnt/orgaEvol/d18074_19_01_1928/d18074_19_01_1928.html",
+                    controller: "d18074_19_01_1928Ctrl"
+                })
                 // 2.3 Ex-Presidentes
                 .when("/cnt/cntExPres", {
                     templateUrl: "templates/2_cnt/cntExPres/cntExPres.html",
@@ -144,6 +154,12 @@ app.controller('CriaCntCtrl', function($scope, $location) {
 });
 
 app.controller('OrgaEvolCtrl', function($scope, $location) {
+});
+
+app.controller('d16027_30_04_1923Ctrl', function($scope, $location) {
+});
+
+app.controller('d18074_19_01_1928Ctrl', function($scope, $location) {
 });
 
 app.controller('CntExPresCtrl', function($scope, $location) {

@@ -2224,3 +2224,11 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
+
+/*retira a barra de ferramentas*/
+#toolbarContainer{
+    display: none;
+}
+#viewerContainer{
+    top: 0px;
+}
