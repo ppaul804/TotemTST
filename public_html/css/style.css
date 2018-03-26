@@ -23,6 +23,19 @@ p {
     width: 100%;
     height: 100%;
 }
+/* Botões de Menu */
+.btn-azul{
+    white-space: normal; /*ativa quebra de linha*/
+    height: 6vw;
+    color: whitesmoke;
+    background-color: #122b40;
+    border-color: #204d74;
+}
+.btn-azul.focus, .btn-azul:focus, .btn-azul:hover {
+    color: white;
+    background-color: #1A3037;
+    text-decoration: none;
+}
 
 
 /*__________Animação Bem Vindo ao TST___________*/
@@ -164,4 +177,17 @@ div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
     border-left: 2px solid gray;
     padding: 6px;
     margin: 20px;
+}
+
+/*__________MENU LEGISLACAO TRABALHISTA___________*/
+.criaCnt > .listaBotoes { 
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: justify;
+    -moz-column-count: 3;
+    column-count: 3;
+    column-gap: 10px;
+}
+.criaCnt > .listaBotoes > ul >  li {
+    margin-bottom: 1vh;
 }
