@@ -12,7 +12,7 @@
         var myModal = $('#myModal');//referencia ao modal (janela) da página
         switch (op) {
             case '1':
-                $.get("templates/2_cnt/cntExPres/Ataulpho Nápoles de Paiva 1925 a 1930/Texto/Ataulpho Nápoles de Paiva 1925 a 1930.htm", function (content) {//variável content recebe o conteúdo
+                $.get("templates/2_cnt/cntExPres/Ataulpho Nápoles de Paiva 1925 a 1930/Texto/Ataulpho Nápoles de Paiva 1925 a 1930.html", function (content) {//variável content recebe o conteúdo
                     $(myModal).find('.modal-content').html(content);//põe o conteúdo na classe .modal-content
                 }, 'html');
                 break;
