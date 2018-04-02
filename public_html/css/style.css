@@ -32,6 +32,12 @@ figure {
     text-indent: 0;
     margin: 0vh 1vw 0vh 1vw; 
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+}
 figure p {
     margin: 1vh 0vw 0vh 0vw;
     padding: 0;
