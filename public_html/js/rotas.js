@@ -111,7 +111,7 @@ app.config(['$routeProvider', function($routeProvider) {
                     controller: "MembCtrl"
                 })
                 // 6 Curiosidades ______________________________________________________
-                // 6.1 Justiça e Números
+                // 6.1 Justiça em Números
                 .when("/curi/justNume", {
                     templateUrl: "templates/6_curi/Justiça e Números/justNume.html",
                     controller: "JustNumeCtrl"
