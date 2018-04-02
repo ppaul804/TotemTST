@@ -24,16 +24,11 @@ app.config(['$routeProvider', function($routeProvider) {
                     templateUrl: "templates/nav.html",
                     controller: "NavCtrl"
                 })
-                // PDF
-                .when("/pdf", {
-                    templateUrl: "pdf/web/wiewer.html",
-                    controller: "PdfCtrl"
-                })
 
                 // 1 Origem e Evolução do Trabalho _____________________________________
                 // 1.1 História do Trabalho no Brasil
                 .when("/orig/histTrab", {
-                    templateUrl: "templates/1_orig/histTrab/histTrab.html",
+                    templateUrl: "templates/1_orig/Historia do Trabalho no Brasil/Historia do Trabalho no Brasil.html",
                     controller: "HistTrabCtrl"
                 })
                 // 1.2 Legislação Trabalhista
@@ -44,91 +39,91 @@ app.config(['$routeProvider', function($routeProvider) {
                 // 2 Conselho Nacional do Trabalho _____________________________________
                 // 2.1 A Criação do CNT
                 .when("/cnt/criaCnt", {
-                    templateUrl: "templates/2_cnt/criaCnt/criaCnt.html",
+                    templateUrl: "templates/2_cnt/A Criação do CNT/criaCnt.html",
                     controller: "CriaCntCtrl"
                 })
                 // 2.2 Organograma Evolutivo
                 .when("/cnt/orgaEvol", {
-                    templateUrl: "templates/2_cnt/orgaEvol/orgaEvol.html",
+                    templateUrl: "templates/2_cnt/Organograma Evolutivo/orgaEvol.html",
                     controller: "OrgaEvolCtrl"
                 })
                 // 2.2.1 Decreto 16.027, de 30-04-1923
                 .when("/cnt/orgaEvol/d16027_30_04_1923", {
-                    templateUrl: "templates/2_cnt/orgaEvol/d16027_30_04_1923/d16027_30_04_1923.html",
+                    templateUrl: "templates/2_cnt/Organograma Evolutivo/Decreto 16.027, de 30-04-1923/d16027_30_04_1923.html",
                     controller: "d16027_30_04_1923Ctrl"
                 })
                 // 2.2.2 Decreto 18.074, de 19-01-1928
                 .when("/cnt/orgaEvol/d18074_19_01_1928", {
-                    templateUrl: "templates/2_cnt/orgaEvol/d18074_19_01_1928/d18074_19_01_1928.html",
+                    templateUrl: "templates/2_cnt/Organograma Evolutivo/Decreto 18.074, de 19-01-1928/d18074_19_01_1928.html",
                     controller: "d18074_19_01_1928Ctrl"
                 })
                 // 2.3 Ex-Presidentes
                 .when("/cnt/cntExPres", {
-                    templateUrl: "templates/2_cnt/cntExPres/cntExPres.html",
+                    templateUrl: "templates/2_cnt/Ex-Presidentes/cntExPres.html",
                     controller: "CntExPresCtrl"
                 })
                 // 3 Justiça do Trabalho _______________________________________________
                 // 3.1 No Mundo
                 .when("/jt/noMund", {
-                    templateUrl: "templates/3_jt/noMund/noMund.html",
+                    templateUrl: "templates/3_jt/No Mundo/noMund.html",
                     controller: "NoMundCtrl"
                 })
                 // 3.2 No Brasil
                 .when("/jt/noBras", {
-                    templateUrl: "templates/3_jt/noBras/noBras.html",
+                    templateUrl: "templates/3_jt/No Brasil/noBras.html",
                     controller: "NoBrasCtrl"
                 })
                 // 3.3 Atores da Justiça do Trabalho
                 .when("/jt/ator", {
-                    templateUrl: "templates/3_jt/ator/ator.html",
+                    templateUrl: "templates/3_jt/Atores/ator.html",
                     controller: "AtorCtrl"
                 })
                 // 4 Tribunal Superior do Trabalho _____________________________________
                 // 4.1 Fatos Históricos
                 .when("/tst/fatoHist", {
-                    templateUrl: "templates/4_tst/fatoHist/fatoHist.html",
+                    templateUrl: "templates/4_tst/Fatos Históricos/fatoHist.html",
                     controller: "FatoHistCtrl"
                 })
                 // 4.2 Programas Institucionais
                 .when("/tst/progInst", {
-                    templateUrl: "templates/4_tst/progInst/progInst.html",
+                    templateUrl: "templates/4_tst/Programas Institucionais/progInst.html",
                     controller: "ProgInstCtrl"
                 })
                 // 4.3 70 Anos em Acórdãos
                 .when("/tst/70AnosAcor", {
-                    templateUrl: "templates/4_tst/70AnosAcor/70AnosAcor.html",
+                    templateUrl: "templates/4_tst/70 Anos em Acórdãos/70AnosAcor.html",
                     controller: "70AnosAcorCtrl"
                 })
                 // 5 Conselho Superior da Justiça do Trabalho __________________________
                 // 5.1 Criação 
                 .when("/csjt/cria", {
-                    templateUrl: "templates/5_csjt/cria/cria.html",
+                    templateUrl: "templates/5_csjt/Criação/cria.html",
                     controller: "CriaCtrl"
                 })
                 // 5.2 Ex-Presidentes
                 .when("/csjt/csjtExPres", {
-                    templateUrl: "templates/5_csjt/csjtExPres/csjtExPres.html",
+                    templateUrl: "templates/5_csjt/Ex-Presidentes/csjtExPres.html",
                     controller: "CsjtExPresCtrl"
                 })
                 // 5.3 Membros
                 .when("/csjt/memb", {
-                    templateUrl: "templates/5_csjt/memb/memb.html",
+                    templateUrl: "templates/5_csjt/Membros/memb.html",
                     controller: "MembCtrl"
                 })
                 // 6 Curiosidades ______________________________________________________
                 // 6.1 Justiça e Números
                 .when("/curi/justNume", {
-                    templateUrl: "templates/6_curi/justNume/justNume.html",
+                    templateUrl: "templates/6_curi/Justiça e Números/justNume.html",
                     controller: "JustNumeCtrl"
                 })
                 // 6.2 Dicionário de profissões pouco comuns
                 .when("/curi/diciProf", {
-                    templateUrl: "templates/6_curi/diciProf/diciProf.html",
+                    templateUrl: "templates/6_curi/Dicionário de profissões pouco comuns/diciProf.html",
                     controller: "DiciProfCtrl"
                 })
                 // 6.3 Você sabia?
                 .when("/curi/voceSabi", {
-                    templateUrl: "templates/6_curi/voceSabi/voceSabi.html",
+                    templateUrl: "templates/6_curi/Você sabia/voceSabi.html",
                     controller: "VoceSabiCtrl"
                 })
 
