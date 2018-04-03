@@ -33,7 +33,7 @@ app.config(['$routeProvider', function($routeProvider) {
                 })
                 // 1.2 Legislação Trabalhista
                 .when("/orig/legiTrab", {
-                    templateUrl: "templates/1_orig/legiTrab/legiTrab.html",
+                    templateUrl: "templates/1_orig/Legislação Trabalhista/legiTrab.html",
                     controller: "LegiTrabCtrl"
                 })
                 // 2 Conselho Nacional do Trabalho _____________________________________
