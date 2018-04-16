@@ -1,52 +1,52 @@
-"Lei de 13 de setembro de 1830"
-"Lei 108 de 11 de outubro de 1837"
-"Lei 556 de 25 de junho de 1850"
-"Decreto 2827 de 15 de marco de 1879"
-"Decreto 1313 de 17 de janeiro de 1891"
-"Decreto Legislativo 4682 de 24 de janeiro de 1923"
-"Decreto 16027 de 30 de abril de 1923"
-"Decreto 4859 de 26 de setembro de 1924"
-"Decreto 4982 de 24 de dezembro de 1925"
-"Decreto 5083 de 1 de dezembro de 1926"
-"Decreto 17496 de 30 de outubro de 1926"
-"Decreto 5109 de 20 de dezembro de 1926"
-"Decreto 19433 de 23 de novembro de 1930"
-"Decreto 19482 de 12 de dezembro de 1930"
-"Decreto 19770 de 19 de marco de 1931"
-"Decreto 21175 de 21 de marco de 1932"
-"Em julho de 1934"
-"Em novembro de 1937"
-"Decreto-lei 1402 de 5 de julho de 1939"
-"Decreto-lei 1237 de 2 de maio de 1939"
-"Decreto-lei 2162 de 1 de maio de 1940"
-"1 de maio de 1941"
-"Decreto-Lei 5452 de 1 de maio de 1943"
-"Decreto-lei 9070 de 15 de marco de 1946"
-"Decreto 9502 de 23 de julho de 1946"
-"Decreto 41721 de 25 de junho de 1957"
-"Lei 4066 de maio de 1962"
-"Lei 4214 de 2 de marco de 1963"
-"Lei 4266 de outubro de 1963"
-"Lei 4330 de 1 de junho de 1964"
-"Lei 4589 de 11 de dezembro de 1964"
-"Lei 4725 de 13 de julho de 1965"
-"Lei 5107 de 13 de setembro de 1966"
-"Decreto 229 de 28 de fevereiro de 1967"
-"Decreto-lei 564 de 1 de maio de 1969"
-"Lei 5584 de 26 de junho de 1970"
-"Lei 5889 de 8 de junho de 1973"
-"1988"
-"Lei 7783 de 28 de junho de 1989"
-"Decreto 2100 de 20 de dezembro de 1996"
-"2006"
-"Lei 11948 de 16 de junho de 2009"
-"Lei 12551 de 15 de dezembro de 2011"
-"Lei 12513 de 26 de outubro de 2011"
-"Lei 12440 de 7 de julho de 2011"
-"Lei 12382 de 25 de fevereiro de 2011"
-"Lei 12506 de 11 de outubro de 2011"
-"Lei 12761 de 27 de dezembro de 2012"
-"Emenda Constitucional 72 de 2 de abril de 2013"
-"Medida Provisoria 665 de 30 de dezembro de 2014"
-"Lei 13467 de 13 de julho de 2017"
-"Lei 13429 de 31 de marco de 2017"
+Lei de 13 de setembro de 1830
+Lei 108 de 11 de outubro de 1837
+Lei 556 de 25 de junho de 1850
+Decreto 2827 de 15 de marco de 1879
+Decreto 1313 de 17 de janeiro de 1891
+Decreto Legislativo 4682 de 24 de janeiro de 1923
+Decreto 16027 de 30 de abril de 1923
+Decreto 4859 de 26 de setembro de 1924
+Decreto 4982 de 24 de dezembro de 1925
+Decreto 5083 de 1 de dezembro de 1926
+Decreto 17496 de 30 de outubro de 1926
+Decreto 5109 de 20 de dezembro de 1926
+Decreto 19433 de 23 de novembro de 1930
+Decreto 19482 de 12 de dezembro de 1930
+Decreto 19770 de 19 de marco de 1931
+Decreto 21175 de 21 de marco de 1932
+Em julho de 1934
+Em novembro de 1937
+Decreto-lei 1402 de 5 de julho de 1939
+Decreto-lei 1237 de 2 de maio de 1939
+Decreto-lei 2162 de 1 de maio de 1940
+1 de maio de 1941
+Decreto-Lei 5452 de 1 de maio de 1943
+Decreto-lei 9070 de 15 de marco de 1946
+Decreto 9502 de 23 de julho de 1946
+Decreto 41721 de 25 de junho de 1957
+Lei 4066 de maio de 1962
+Lei 4214 de 2 de marco de 1963
+Lei 4266 de outubro de 1963
+Lei 4330 de 1 de junho de 1964
+Lei 4589 de 11 de dezembro de 1964
+Lei 4725 de 13 de julho de 1965
+Lei 5107 de 13 de setembro de 1966
+Decreto 229 de 28 de fevereiro de 1967
+Decreto-lei 564 de 1 de maio de 1969
+Lei 5584 de 26 de junho de 1970
+Lei 5889 de 8 de junho de 1973
+1988
+Lei 7783 de 28 de junho de 1989
+Decreto 2100 de 20 de dezembro de 1996
+2006
+Lei 11948 de 16 de junho de 2009
+Lei 12551 de 15 de dezembro de 2011
+Lei 12513 de 26 de outubro de 2011
+Lei 12440 de 7 de julho de 2011
+Lei 12382 de 25 de fevereiro de 2011
+Lei 12506 de 11 de outubro de 2011
+Lei 12761 de 27 de dezembro de 2012
+Emenda Constitucional 72 de 2 de abril de 2013
+Medida Provisoria 665 de 30 de dezembro de 2014
+Lei 13467 de 13 de julho de 2017
+Lei 13429 de 31 de marco de 2017
