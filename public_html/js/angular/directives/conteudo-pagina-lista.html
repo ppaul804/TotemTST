@@ -1,0 +1,22 @@
+<!--Conteúdo-->
+<div class="conteudo-pagina-lista col-md-10" style="border:1px solid blue">
+    <h1>{{titulo}}</h1>
+    <div class="col-md-3" style="border:1px dashed blue">
+        <figure>
+            <p>
+                <img ng-src="{{foto}}" class="img-responsive" alt="foto" />
+            </p>
+            <p>{{legenda}}</p>
+        </figure>
+        <ul class="list-group" ng-transclude>
+            <!--lista de itens passadas pelo transclude-->
+        </ul>
+    </div><!--navegação interna(conteúdo)-->
+    <div class="col-md-9" style="border:1px dashed blue">
+        <ul class="list-unstyled ">
+            <button class="btn btn-block btn-default" ng-repeat="item in lista" data-toggle="modal" data-target="#myModal">{{item.nome}}</button>
+            <a href="#!/{{item.url}}" ><li></li></a>
+            
+        </ul>
+    </div><!--lista-->
+</div><!--Conteúdo---->

@@ -1,0 +1,19 @@
+[{
+        "titulo": "Brasil Colônia",
+        "url": "#!/brasColo",
+        "foto": "conteudo/Origem e Evolução do Trabalho/Historia do Trabalho no Brasil/Brasil Colônia/Foto/Brasil Colônia.jpg",
+        "texto": "O Brasil adotou por 388 anos o modelo escravagista como forma de trabalho preferencial. Os indígenas representaram a primeira fonte de mão de obra escravizada, utilizados para a extração do pau-brasil e para o cultivo de cana-de-açúcar. O processo da derrubada das árvores e corte do pau-brasil se tornou a primeira atividade coletiva de trabalho no período colonial. Eles realizavam a derrubada das árvores e cortavam-nas em pedaços menores. Depois disso, transportavam a madeira para as feitorias, onde ficavam estocadas até serem levadas para a Europa. Com o passar do tempo, a mão de obra indígena foi sendo gradativamente abandonada. Em 1550, o trabalho escravo passou a ser composto majoritariamente por negros cativos trazidos das colônias africanas."
+    },
+    {
+        "titulo": "Brasil Império",
+        "url": "#!/brasImpe",
+        "foto": "conteudo/Origem e Evolução do Trabalho/Historia do Trabalho no Brasil/Brasil Império/Foto/Brasil Império.jpg",
+        "texto": "Quando Dom Pedro I proclamou a independência do Brasil em 1822, a exploração do trabalho escravo já havia iniciado seu período de decadência. O avanço das ideias liberais antiescravagistas na Europa influenciou a política local brasileira. A pressão dos ingleses pelo fim do tráfico ultramarino teve sua importância no processo de diminuição da mão de obra escrava, que ficava restrita aos cativos nacionais. A queda do valor do açúcar no mercado externo e a diminuição da extração das minas de ouro e diamante, que se esgotaram rapidamente, representam outro fator que explicaria a menor necessidade dos escravos."
+    },
+    {
+        "titulo": "Brasil República",
+        "url": "#!/brasRepu",
+        "foto": "conteudo/Origem e Evolução do Trabalho/Historia do Trabalho no Brasil/Brasil República/Foto/Brasil República.jpg",
+        "texto": "O início da República no Brasil, em 1889, representa também uma mudança de paradigma nas relações de trabalho. Com o fim da escravidão, os empresários se viram forçados a contratar trabalhadores livres, mas as condições de trabalho em muitos locais beiravam a servidão. O processo de industrialização e surgimento das fábricas implementaram novas formas de trabalho e de organização social. As influências de ideologias estrangeiras, liberais, marxistas e socialistas, começaram a desenhar o perfil do trabalhador brasileiro, das legislações e dos embates travados entre empregados e empregadores."
+    }
+]

@@ -1,0 +1,16 @@
+<!--Conteúdo-->
+<div class="conteudo-pagina-texto col-md-10" style="border:1px solid blue">
+    <h1>{{titulo}}</h1>
+    <div class="col-md-3" style="border:1px dashed blue">
+        <figure>
+            <p><img ng-src="{{foto}}" class="img-responsive" alt="foto"/></p>
+            <p>{{legenda}}</p>
+        </figure>
+        <ul class="list-group" ng-transclude>
+
+        </ul>
+    </div>
+    <div class="col-md-9" style="border:1px dashed blue">
+        <p>{{texto}}</p>
+    </div>
+</div><!--fim conteúdo-->

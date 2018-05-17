@@ -1,0 +1,18 @@
+<!--Menu lateral-->
+<div class="col-md-2" 
+     ng-controller="TotenCtrl" 
+     ng-open="abreCollapses(); carregaFiltro()"
+     style="border:1px dashed black">
+    <menu-botao ng-repeat="menu in menuLista| filter:filtro"
+                index="{{menu.index}}"
+                imagem="{{menu.imagem}}"
+                titulo="{{menu.titulo}}"
+                >
+        <!--Lista para cada botão (está dentro de um <ul>)-->
+        <li class="list-group-item" ng-repeat="topico in menu.topicos">
+            <a href="{{topico.url}}">
+                {{topico.titulo}}
+            </a>
+        </li>
+    </menu-botao>
+</div><!--fim menu lateral-->

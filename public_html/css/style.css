@@ -1,237 +1,33 @@
-@charset "UTF-8";
-@import "dp/bootstrap.min.css";
-
-html, body {
-    height: 100%;
-    text-align: center;/*coloca tudo no centro*/
-}
+/*body em index.html*/
 body {
-    padding: 0%;
     background: url(../img/fundo.jpg) center center no-repeat fixed; /*imagem de fundo*/
     background-size: cover;
 }
-#tela {
-    padding: 0%;
-    width: 100%;
-    height: 100%;
+/*menu em menu.html*/
+.menu {
+    /*width prefixado para navegadores*/
+    /*não funciona no IE*/
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    /*centralizar uma div*/
+    margin: 0 auto;
 }
-
-p {
-    text-align: justify;
-    margin-left: 3.5vh;
-    margin-right: 3.5vw;
-}
-
-/*__________imagem com legenda__________*/
-figure {
-    float: left;
-    width: 20vw;
+/*menu-botao na diretiva menu-botao.html*/
+.menu-botao {
+    /*alinha o texto no centro*/
     text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    text-indent: 0;
-    margin: 0vh 1vw 0vh 1vw; 
 }
-figure p {
-    margin: 1vh 0vw 0vh 0vw;
-    padding: 0;
+.menu-botao img{
+    /*define o tamanho da imagem de acordo com o tamanho da tela*/
+    width: 10vw;
+    height: 10vw;
 }
-figure p img { /*estilo para todas as imagens de comeco de texto*/
-    width: 20vw;
-}
-
-.titulo-pagina{ /*estilo para todos os titulos de pagina*/
-    margin-top: 5%;
-    text-transform: uppercase;
-}
-
-.table{
-    margin-bottom: 0px;/*retira a margem de baixo das tabelas*/
-}
-
-/*__________ Lista de botões de conteudo __________*/
-.btn-azul{
-    white-space: normal; /*ativa quebra de linha*/
-    height: 6vw;
-    color: whitesmoke;
-    background-color: #122b40;
-    border-color: #204d74;
-}
-.btn-azul.focus, .btn-azul:focus, .btn-azul:hover {
-    color: white;
-    background-color: #1A3037;
-    text-decoration: none;
-}
-.listaBotoes { 
-    margin-left: 10vw;
-    margin-right: 10vw;
-    text-align: justify;
-    -moz-column-count: 3;
-    column-count: 3;
-    column-gap: 10px;
-}
-.listaBotoes >  li {
-    margin-bottom: 1vh;
-}
-
-
-/*__________Animação Bem Vindo ao TST___________*/
-.elementToFadeInAndOut {
-    opacity: 0;
-    -o-animation: fade 5s linear;
-    -moz-animation: fade 5s linear;
-    -webkit-animation: fade 5s linear;
-    animation: fade 2s linear;
-}
-@-webkit-keyframes fade {
-    50% { opacity: 1; }
-}
-@keyframes fade {
-    25% { opacity: 1; }
-    75% { opacity: 1; }
-}
-
-/*__________MODAL (POP-UP)___________*/
-.modal.fade{
-    opacity:1;
-}
-.modal.fade .modal-dialog {
-    -webkit-transform: translate(0);
-    -moz-transform: translate(0);
-    transform: translate(0);
-}
-
-/*__________MENU NAVEGACAO___________*/
-.btn-circle {
-    width: 30px; height: 30px;
-    text-align: center; padding: 6px 0;
-    font-size: 12px; line-height: 1.428571429;
-    border-radius: 15px; margin: 10px;
-}
-.btn-circle.btn-lg {
-    width: 50px; height: 50px;
-    padding: 10px 16px; font-size: 18px;
-    line-height: 1.33; border-radius: 25px;
-}
-.btn-circle.btn-xl {
-    width: 70px; height: 70px;
-    padding: 10px 16px; font-size: 24px;
-    line-height: 1.33; border-radius: 35px;
-}
-nav {
-    text-align: left;
-    opacity: .5;
-}
-
-/*__________MENU HOME___________*/
-.home > ul.list-inline {
-    display: inline-flex;/*deixa o menu alinhado ao topo da tela*/
-}
-.home {
-    /*border: 1px dotted black;*/
-    padding-top: 3%; 
-    color: white;
-}
-.home-botao {/*botao e sua lista de topicos*/
-    /*border: 1px dotted yellow;*/
-    width: 223px;
-    height: 100%;
-}
-.home-lista {/*lista de topicos de cada botao*/
-    /*border: 1px dotted maroon;*/
-    display: none;
-}
-.home > ul > li > ul {/*cada lista de subtopicos*/
-    /*border: 1px solid blue;*/
-}
-.home > ul {/*lista de topicos do home*/
+.menu-botao.col-md-2{
     padding: 0px;
+    width: 12.1vw;
 }
-.home > ul > li > div > h4 {/*titulo dos botoes*/
-    font-stretch: normal;
-}
-.home > ul > li > div > img {/*imagem dos botoes*/
-    /*border: 1px solid white;*/
-    width: 150px;
-    height: 150px;
-    margin-bottom: 12%;
-}
-.home > ul > li > ul > a > li {/*subtopico de cada topico do menu do home*/
-    /*border: 1px solid #269abc;*/
-    background-color: #204d74;
-    margin-top: 5%;
-    padding: 5%;
-}
-.home > ul > li > ul > a:link, a:visited, a:hover, a:active {/*subtopico de cada topico do menu do home*/
-    color: white; text-decoration: none;
-}
-
-div#botao-orig, div#botao-cnt, div#botao-jt, 
-div#botao-tst, div#botao-csjt, div#botao-curi {
-    /*border: 1px solid rgba(84, 101, 122, 0.89);*/
-    padding: 0%;
-    margin: 0%;
-}
-div#botao-orig, div#botao-cnt, div#botao-jt, 
-div#botao-tst, div#botao-csjt, div#botao-curi > h1 {
-
-}
-div#botao-orig:hover, div#botao-cnt:hover, div#botao-jt:hover, 
-div#botao-tst:hover, div#botao-csjt:hover, div#botao-curi:hover {
-    background-color: rgba(20, 26, 39, 0.8);
-    transition: background 0.5s;
-}
-
-/*__________MENU ORIGEM E EVOLUCAO DO TRABALHO___________*/
-.histTrab > .divBotoes {
-    /*border: 1px dotted black;*/
-    position: relative; /*relative como referencia de coordenadas os absolutes a segui*/
-    background: url(../img/orig-menu-botoes.png) center center no-repeat;
-    background-size: 100% 100%;
-    height: 100vh;/*1vh e relativo a 1% da altura da tela do navegador*/
-}
-.histTrab > .divBotoes > div {/*os links para os pop-ups (modal)*/
-    /*border: 1px solid blue;*/
-}
-
-/*__________MENU LEGISLACAO TRABALHISTA___________*/
-.legiTrab > .listaLeis {
-    text-align: justify;
-    -moz-column-count: 2;
-    column-count: 2;
-    -moz-column-rule: 2px solid gray;    
-    column-rule: 2px solid gray;
-    column-gap: 10px;
-}
-.legiTrab > .listaLeis > ul > li {/*cada elemento da lista*/
-    border-bottom: 2px solid gray;
-    border-left: 2px solid gray;
-    padding: 6px;
-    margin: 20px;
-}
-
-/*__________MENU ORGANOGRAMA EVOLUTIVO DO CONSELHO NACIONAL DO TRABALHO___________*/
-.orgaEvol > .listaBotoes {
-    -moz-column-count: 2;
-    column-count: 2;
-}
-
-/*__________MENU MINISTROS EX-PRESIDENTES DO CONCELHO NACIONAL DO TRABALHO___________*/
-.cntExPres-lista {
-    /*border: 1px black dashed;*/
-    position: relative; /*relative como referencia de coordenadas os absolutes a segui*/
-    background: url(../templates/2_cnt/Ex-Presidentes/cntExPres.png) center center no-repeat;
-    background-size: 100% 100%;
-    height: 100vh;/*1vh e relativo a 1% da altura da tela do navegador*/
-}
-
-/*__________MENU JUSTIÇA EM NÚMEROS___________*/
-.justNume > img {
-    width: 45vw;
-}
-
-/*__________MENU VOCÊ SABIA___________*/
-.listaVoceSabi {
-    -moz-column-width: 30vw;
-    column-width: 30vw;
+/*conteudo-pagina-* na diretiva conteudo-pagina-*.html*/
+.conteudo-pagina-texto, .conteudo-pagina-lista, .conteudo-pagina-galeria{
+    background: white
 }
