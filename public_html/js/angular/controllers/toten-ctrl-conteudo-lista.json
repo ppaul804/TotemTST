@@ -1,0 +1,19 @@
+[{
+        "titulo": "titulo em TotemCtrl",
+        "fotoUrl": "foto em TotemCtrl",
+        "legenda": "legenda em TotemCtrl",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis mattis orci sit amet volutpat. Curabitur ut aliquam elit. Proin at odio rhoncus, dapibus tortor eget, aliquet purus. Pellentesque vitae enim luctus, sagittis urna quis, consectetur est. Integer tincidunt dignissim malesuada. Vivamus maximus dignissim lectus, eu malesuada dui ultricies ac. Aenean semper erat tortor, nec placerat erat hendrerit a. Nam quis dui sit amet ex tempus consequat. Integer aliquet posuere dui et molestie. Maecenas eget elementum mi, et euismod est. \\n Morbi lacinia malesuada dui, nec vehicula ipsum dignissim vel.Vestibulum eu viverra nisi.Ut elementum cursus purus, accumsan rhoncus diam vulputate ut.Integer gravida porta urna.Curabitur mauris tellus, accumsan in erat eu, finibus lacinia nulla.Ut efficitur quam id sollicitudin convallis.Aliquam ultricies scelerisque ex, consequat aliquet lectus ultrices eu.Interdum et malesuada fames ac ante ipsum primis in faucibus.Quisque fringilla vulputate volutpat."
+    },
+    {
+        "titulo": "titulo2 em TotemCtrl",
+        "fotoUrl": "foto2 em TotemCtrl",
+        "legenda": "legenda2 em TotemCtrl",
+        "texto": "Outro lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis mattis orci sit amet volutpat. Curabitur ut aliquam elit. Proin at odio rhoncus, dapibus tortor eget, aliquet purus. Pellentesque vitae enim luctus, sagittis urna quis, consectetur est. Integer tincidunt dignissim malesuada. Vivamus maximus dignissim lectus, eu malesuada dui ultricies ac. Aenean semper erat tortor, nec placerat erat hendrerit a. Nam quis dui sit amet ex tempus consequat. Integer aliquet posuere dui et molestie. Maecenas eget elementum mi, et euismod est. \\n Morbi lacinia malesuada dui, nec vehicula ipsum dignissim vel.Vestibulum eu viverra nisi.Ut elementum cursus purus, accumsan rhoncus diam vulputate ut.Integer gravida porta urna.Curabitur mauris tellus, accumsan in erat eu, finibus lacinia nulla.Ut efficitur quam id sollicitudin convallis.Aliquam ultricies scelerisque ex, consequat aliquet lectus ultrices eu.Interdum et malesuada fames ac ante ipsum primis in faucibus.Quisque fringilla vulputate volutpat."
+    },
+    {
+        "titulo": "titulo3 em TotemCtrl",
+        "fotoUrl": "foto3 em TotemCtrl",
+        "legenda": "legenda3 em TotemCtrl",
+        "texto": "Mais um lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis mattis orci sit amet volutpat. Curabitur ut aliquam elit. Proin at odio rhoncus, dapibus tortor eget, aliquet purus. Pellentesque vitae enim luctus, sagittis urna quis, consectetur est. Integer tincidunt dignissim malesuada. Vivamus maximus dignissim lectus, eu malesuada dui ultricies ac. Aenean semper erat tortor, nec placerat erat hendrerit a. Nam quis dui sit amet ex tempus consequat. Integer aliquet posuere dui et molestie. Maecenas eget elementum mi, et euismod est. \\n Morbi lacinia malesuada dui, nec vehicula ipsum dignissim vel.Vestibulum eu viverra nisi.Ut elementum cursus purus, accumsan rhoncus diam vulputate ut.Integer gravida porta urna.Curabitur mauris tellus, accumsan in erat eu, finibus lacinia nulla.Ut efficitur quam id sollicitudin convallis.Aliquam ultricies scelerisque ex, consequat aliquet lectus ultrices eu.Interdum et malesuada fames ac ante ipsum primis in faucibus.Quisque fringilla vulputate volutpat."
+    }
+]
