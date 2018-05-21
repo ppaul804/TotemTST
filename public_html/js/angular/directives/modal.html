@@ -1,29 +1,27 @@
-<div ng-controller="TotenCtrl" class="modal fade" 
-     id="myModal" tabindex="-1" 
-     role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-lg" role="document" 
-         style="width:50vw">
-        <!--Repete conteudo em conteudoLista e filtra por titulo2-->
-        <div ng-repeat="conteudo in conteudoLista| filter:'titulo2'" 
-             id="modal-content" 
-             class="modal-content">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document" style="width:50vw">
+        <!--Repete item em lista e filtra por x-->
+        <div ng-repeat="item in lista" id="modal-content" class="modal-content">
             <div class="modal-header">
-                <h2>{{conteudo.titulo}}</h2><br>
+                <h2>{{item.titulo}}</h2>
+                <br>
             </div>
             <div class="modal-body">
                 <figure>
                     <p>
-                        <img ng-src="{{conteudo.fotoUrl}}" alt="foto"/>
+                        <img ng-src="{{item.fotoUrl}}" alt="foto" />
                     </p>
-                    <p>{{conteudo.legenda}}</p>
+                    <p>{{$id}}</p>
                 </figure>
-                <p>{{conteudo.texto}}</p>
+                <p>{{item.texto}}</p>
             </div>
             <div class="modal-footer">
-                <button type="button" 
-                        class="btn btn-default" 
-                        data-dismiss="modal">Fechar</button><!--Botão de Fechar-->
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                <!--Botão de Fechar-->
             </div>
-        </div><!--fim modal-content-->
-    </div><!--fim modal-dialog-->
-</div><!--fim modal-->
+        </div>
+        <!--fim modal-content-->
+    </div>
+    <!--fim modal-dialog-->
+</div>
+<!--fim modal-->

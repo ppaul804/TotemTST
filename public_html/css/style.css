@@ -1,9 +1,13 @@
 /*body em index.html*/
+
 body {
-    background: url(../img/fundo.jpg) center center no-repeat fixed; /*imagem de fundo*/
+    background: url(../img/fundo.jpg) center center no-repeat fixed;
+    /*imagem de fundo*/
     background-size: cover;
 }
+
 /*menu em menu.html*/
+
 .menu {
     /*width prefixado para navegadores*/
     /*não funciona no IE*/
@@ -13,21 +17,29 @@ body {
     /*centralizar uma div*/
     margin: 0 auto;
 }
+
 /*menu-botao na diretiva menu-botao.html*/
+
 .menu-botao {
     /*alinha o texto no centro*/
     text-align: center;
 }
-.menu-botao img{
+
+.menu-botao img {
     /*define o tamanho da imagem de acordo com o tamanho da tela*/
     width: 10vw;
     height: 10vw;
 }
-.menu-botao.col-md-2{
+
+.menu-botao.col-md-2 {
     padding: 0px;
     width: 12.1vw;
 }
+
 /*conteudo-pagina-* na diretiva conteudo-pagina-*.html*/
-.conteudo-pagina-texto, .conteudo-pagina-lista, .conteudo-pagina-galeria{
+
+.conteudo-pagina-texto,
+.conteudo-pagina-lista,
+.conteudo-pagina-galeria {
     background: white
 }

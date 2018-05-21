@@ -11,12 +11,6 @@ angular.module('minhasDiretivas', [])
          * '&' executar um método no escopo do pai;
          * Obs.: '@' para passar uma expressão e '=' você passa diretamente seu model
          */
-        ddo.scope = { //escopo da diretiva
-            titulo: '@', //espécie de atributo da tag (diretiva) no html.
-            fotoUrl: '@',
-            legenda: '@',
-            texto: '@'
-        };
         ddo.templateUrl = "js/angular/directives/modal.html";
         return ddo; //obrigatório retornar o objeto da diretiva
     })
