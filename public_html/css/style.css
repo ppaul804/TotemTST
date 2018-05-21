@@ -1,9 +1,15 @@
 /*body em index.html*/
 
 body {
+    padding-top: 70px;
     background: url(../img/fundo.jpg) center center no-repeat fixed;
     /*imagem de fundo*/
     background-size: cover;
+}
+
+ li, .btn {
+    /*habilita a quebra de linha*/
+    white-space: normal;
 }
 
 /*menu em menu.html*/
@@ -25,8 +31,9 @@ body {
     text-align: center;
 }
 
+/*define o tamanho da imagem de acordo com o tamanho da tela*/
+
 .menu-botao img {
-    /*define o tamanho da imagem de acordo com o tamanho da tela*/
     width: 10vw;
     height: 10vw;
 }

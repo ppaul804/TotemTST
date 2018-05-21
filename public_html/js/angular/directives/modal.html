@@ -1,7 +1,7 @@
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModal{{$id-52}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" ng-repeat="item in lista">
     <div class="modal-dialog modal-lg" role="document" style="width:50vw">
         <!--Repete item em lista e filtra por x-->
-        <div ng-repeat="item in lista" id="modal-content" class="modal-content">
+        <div id="modal-content" class="modal-content">
             <div class="modal-header">
                 <h2>{{item.titulo}}</h2>
                 <br>
@@ -9,9 +9,8 @@
             <div class="modal-body">
                 <figure>
                     <p>
-                        <img ng-src="{{item.fotoUrl}}" alt="foto" />
+                        <img style="width: 5vw" ng-src="{{item.fotoUrl}}" alt="Foto não encontrada" />
                     </p>
-                    <p>{{$id}}</p>
                 </figure>
                 <p>{{item.texto}}</p>
             </div>

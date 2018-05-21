@@ -4,13 +4,6 @@ angular.module('minhasDiretivas', [])
         var ddo = {}; //declaração da Directive Definition Object
         ddo.restrict = "AE"; //Atributo e Elemento
         ddo.transclude = true; //mantem os elementos filhos do controller. precisa da diretiva ng-transclude no template
-        /**
-         * '=' two-way data-binding;
-         * '<' one-way data-binding;
-         * '@' top-down binding;
-         * '&' executar um método no escopo do pai;
-         * Obs.: '@' para passar uma expressão e '=' você passa diretamente seu model
-         */
         ddo.templateUrl = "js/angular/directives/modal.html";
         return ddo; //obrigatório retornar o objeto da diretiva
     })
@@ -24,6 +17,13 @@ angular.module('minhasDiretivas', [])
         var ddo = {}; //declaração da Directive Definition Object
         ddo.restrict = "AE"; //Atributo e Elemento
         ddo.transclude = true; //mantem os elementos filhos do controller. precisa da diretiva ng-transclude no template
+        /**
+         * '=' two-way data-binding;
+         * '<' one-way data-binding;
+         * '@' top-down binding;
+         * '&' executar um método no escopo do pai;
+         * Obs.: '@' para passar uma expressão e '=' você passa diretamente seu model
+         */
         ddo.scope = {
             index: '@',
             imagem: '@', //espécie de atributo da tag (diretiva) no html.
