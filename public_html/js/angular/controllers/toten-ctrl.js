@@ -63,11 +63,4 @@ angular.module('toten')
             .then(function (resultado) {
                 $scope.menuLista = resultado.data;
             });
-        /**
-         * Origem dos dados dos modais
-         */
-        $http.get('js/angular/controllers/toten-ctrl-conteudo-lista.json')
-            .then(function (resultado) {
-                $scope.conteudoLista = resultado.data;
-            });
     }); //fim controller TotenCtrl
