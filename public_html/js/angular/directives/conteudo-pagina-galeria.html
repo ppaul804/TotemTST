@@ -1,0 +1,13 @@
+<!--Conteúdo-->
+<div class="conteudo-pagina-texto col-md-10" style="border:1px solid blue">
+    <h1>{{titulo}}</h1>
+    <div class="col-md-12" style="border:1px dashed blue">
+        <ul class="list-inline galeria">
+            <li class="col-md-3" style="border: 1px dotted blueviolet;margin: 0 auto" ng-repeat="ministro in galeria">
+                <img class="img-responsive" ng-src="{{ministro.foto}}" alt="sem foto">
+                <span>{{ministro.titulo}}</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--fim conteúdo-->

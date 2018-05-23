@@ -64,4 +64,14 @@ angular.module('minhasDiretivas', [])
 
         ddo.templateUrl = "js/angular/directives/conteudo-pagina-lista.html";
         return ddo; //obrigatório retornar o objeto da diretiva
+    })
+    .directive("conteudoPaginaGaleria", function () {
+        var ddo = {}; //declaração da Directive Definition Object
+        ddo.restrict = "AE"; //Atributo e Elemento
+        ddo.transclude = true; //mantem os elementos filhos do controller. precisa da diretiva ng-transclude no template
+
+        //A direitiva usará o mesmo escopo de onde é chamada, então não é necessário utilizar ddo.scope{};
+
+        ddo.templateUrl = "js/angular/directives/conteudo-pagina-galeria.html";
+        return ddo; //obrigatório retornar o objeto da diretiva
     });

@@ -7,9 +7,22 @@ body {
     background-size: cover;
 }
 
- li, .btn {
+li,
+.btn {
     /*habilita a quebra de linha*/
     white-space: normal;
+}
+
+/*galeria com itens centralizados*/
+
+.galeria li {
+    text-align: center
+}
+
+.galeria li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 /*menu em menu.html*/
