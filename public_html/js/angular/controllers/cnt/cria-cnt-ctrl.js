@@ -4,7 +4,7 @@ angular.module('toten')
         $scope.foto = "conteudo/Origem e Evolução do Trabalho/Historia do Trabalho no Brasil/Foto/História do Trabalho no Brasil.jpg";
         //$scope.legenda = "alguma legenda";
         //carrega um json de um arquivo externo. Caminho apartir de index.html
-        $http.get('js/angular/controllers/cria-cnt-subtopicos.json')
+        $http.get('js/angular/controllers/cnt/cria-cnt-subtopicos.json')
             .then(function (resultado) {
                 $scope.subtopicos = resultado.data;
             });

@@ -11,83 +11,83 @@ angular.module('toten', ['minhasDiretivas', 'ngRoute', 'ngCookies'])
                 controller: 'TotenCtrl' //origem dos dados
             })
             .when('/histTrab', {
-                templateUrl: 'views/histTrab.html',
+                templateUrl: 'views/origEvol/histTrab.html',
                 controller: 'HistTrabCtrl' //origem dos dados
             })
             .when('/brasColo', {
-                templateUrl: 'views/brasColo.html',
+                templateUrl: 'views/origEvol/brasColo.html',
                 controller: 'HistTrabCtrl' //origem dos dados
             })
             .when('/brasImpe', {
-                templateUrl: 'views/brasImpe.html',
+                templateUrl: 'views/origEvol/brasImpe.html',
                 controller: 'HistTrabCtrl' //origem dos dados
             })
             .when('/brasRepu', {
-                templateUrl: 'views/brasRepu.html',
+                templateUrl: 'views/origEvol/brasRepu.html',
                 controller: 'HistTrabCtrl' //origem dos dados
             })
             .when('/legiTrab', {
-                templateUrl: 'views/legiTrab.html',
+                templateUrl: 'views/origEvol/legiTrab.html',
                 controller: 'LegiTrabCtrl' //origem dos dados
             })
             .when('/criaCnt', {
-                templateUrl: 'views/criaCnt.html',
+                templateUrl: 'views/cnt/criaCnt.html',
                 controller: 'CriaCntCtrl' //origem dos dados
             })
             .when('/exPresCnt', {
-                templateUrl: 'views/exPresCnt.html',
+                templateUrl: 'views/cnt/exPresCnt.html',
                 controller: 'ExPresCntCtrl' //origem dos dados
             })
             .when('/orgaEvolCnt', {
-                templateUrl: 'views/orgaEvolCnt.html',
+                templateUrl: 'views/cnt/orgaEvolCnt.html',
                 controller: 'OrgaEvolCntCtrl' //origem dos dados
             })
             .when('/noMund', {
-                templateUrl: 'views/noMund.html',
+                templateUrl: 'views/jt/noMund.html',
                 controller: 'NoMundCtrl' //origem dos dados
             })
             .when('/noBras', {
-                templateUrl: 'views/noBras.html',
+                templateUrl: 'views/jt/noBras.html',
                 controller: 'NoBrasCtrl' //origem dos dados
             })
             .when('/auto', {
-                templateUrl: 'views/auto.html',
+                templateUrl: 'views/jt/auto.html',
                 controller: 'AutoCtrl' //origem dos dados
             })
             .when('/criaCsjt', {
-                templateUrl: 'views/criaCsjt.html',
+                templateUrl: 'views/csjt/criaCsjt.html',
                 controller: 'CriaCsjtCtrl' //origem dos dados
             })
             .when('/exPresCsjt', {
-                templateUrl: 'views/exPresCsjt.html',
+                templateUrl: 'views/csjt/exPresCsjt.html',
                 controller: 'ExPresCsjtCtrl' //origem dos dados
             })
             .when('/orgaEvolCsjt', {
-                templateUrl: 'views/orgaEvolCsjt.html',
+                templateUrl: 'views/csjt/orgaEvolCsjt.html',
                 controller: 'OrgaEvolCsjtCtrl' //origem dos dados
             })
             .when('/fatoHist', {
-                templateUrl: 'views/fatoHist.html',
+                templateUrl: 'views/tst/fatoHist.html',
                 controller: 'FatoHistCtrl' //origem dos dados
             })
             .when('/progInst', {
-                templateUrl: 'views/progInst.html',
+                templateUrl: 'views/tst/progInst.html',
                 controller: 'ProgInstCtrl' //origem dos dados
             })
             .when('/setentaAnosAcor', {
-                templateUrl: 'views/setentaAnosAcor.html',
+                templateUrl: 'views/tst/setentaAnosAcor.html',
                 controller: 'setentaAnosAcorCtrl' //origem dos dados
             })
             .when('/justNume', {
-                templateUrl: 'views/justNume.html',
+                templateUrl: 'views/curi/justNume.html',
                 controller: 'JustNumeCtrl' //origem dos dados
             })
             .when('/profNaoComu', {
-                templateUrl: 'views/profNaoComu.html',
+                templateUrl: 'views/curi/profNaoComu.html',
                 controller: 'ProfNaoComuCtrl' //origem dos dados
             })
             .when('/voceSabi', {
-                templateUrl: 'views/voceSabi.html',
+                templateUrl: 'views/curi/voceSabi.html',
                 controller: 'VoceSabiCtrl' //origem dos dados
             })
             .otherwise({
