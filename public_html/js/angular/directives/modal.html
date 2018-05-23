@@ -10,6 +10,10 @@
                 <figure>
                     <p>
                         <img style="width: 10vw" ng-src="{{item.fotoUrl}}" alt="Foto não encontrada" />
+                        <img ng-if="item.titulo == '2006'" style="width: 10vw" ng-src="{{item.fotoUrl2}}" alt="Foto não encontrada" />
+                        <img ng-if="item.titulo == '2006'" style="width: 10vw" ng-src="{{item.fotoUrl3}}" alt="Foto não encontrada" />
+                        <img ng-if="item.titulo == '2006'" style="width: 10vw" ng-src="{{item.fotoUrl4}}" alt="Foto não encontrada" />
+                        <img ng-if="item.titulo == '2006'" style="width: 10vw" ng-src="{{item.fotoUrl5}}" alt="Foto não encontrada" />
                     </p>
                 </figure>
                 <p>{{item.texto}}</p>
