@@ -1,0 +1,29 @@
+<div class="modal fade" id="myModal{{$id-8}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" ng-repeat="item in galeria">
+    <div class="modal-dialog modal-lg" role="document" style="width:50vw">
+        <!--Repete item em lista e filtra por x-->
+        <div id="modal-content" class="modal-content">
+            <div class="modal-header">
+                <h2>{{item.titulo}}</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <figure class="col-md-3">
+                        <p>
+                            <img style="width: 10vw" ng-src="{{item.foto}}" alt="Foto não encontrada" />
+                        </p>
+                    </figure>
+                    <p class="col-md-9">{{item.texto}}</p>
+                </div>
+                <!--fim row-->
+            </div>
+            <!--fim modal-body-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                <!--Botão de Fechar-->
+            </div>
+        </div>
+        <!--fim modal-content-->
+    </div>
+    <!--fim modal-dialog-->
+</div>
+<!--fim modal-->

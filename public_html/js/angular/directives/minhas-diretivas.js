@@ -7,6 +7,13 @@ angular.module('minhasDiretivas', [])
         ddo.templateUrl = "js/angular/directives/modal.html";
         return ddo; //obrigatório retornar o objeto da diretiva
     })
+    .directive("modalGaleria", function () {
+        var ddo = {}; //declaração da Directive Definition Object
+        ddo.restrict = "AE"; //Atributo e Elemento
+        ddo.transclude = true; //mantem os elementos filhos do controller. precisa da diretiva ng-transclude no template
+        ddo.templateUrl = "js/angular/directives/modal-galeria.html";
+        return ddo; //obrigatório retornar o objeto da diretiva
+    })
     .directive("navegacao", function () {
         var ddo = {}; //declaração da Directive Definition Object
         ddo.restrict = "AE"; //Atributo e Elemento

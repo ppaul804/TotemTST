@@ -22,7 +22,13 @@ li,
 .galeria li img {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    /*corta a imagem em um tamanho responsivo*/
+    /*não funciona no IE*/
+    width: 14vw;
+    height: 32vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 /*menu em menu.html*/

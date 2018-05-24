@@ -3,9 +3,11 @@
     <h1>{{titulo}}</h1>
     <div class="col-md-12" style="border:1px dashed blue">
         <ul class="list-inline galeria">
-            <li class="col-md-3" style="border: 1px dotted blueviolet;margin: 0 auto" ng-repeat="ministro in galeria">
+            <li class="col-md-3" style="border: 1px dotted blueviolet" ng-repeat="ministro in galeria" data-toggle="modal" data-target="#myModal{{$id}}">
                 <img class="img-responsive" ng-src="{{ministro.foto}}" alt="sem foto">
-                <span>{{ministro.titulo}}</span>
+                <strong>{{ministro.titulo}}</strong>
+                <br>
+                <em>{{ministro.legenda}}</em>
             </li>
         </ul>
     </div>
