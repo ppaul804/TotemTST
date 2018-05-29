@@ -3,7 +3,7 @@
     <h1>{{titulo}}</h1>
     <div class="col-md-12" style="border:1px dashed blue">
         <ul class="list-inline galeria">
-            <li class="col-md-3" style="border: 1px dotted blueviolet" ng-repeat="ministro in galeria" data-toggle="modal" data-target="#myModal{{$id}}">
+            <li class="col-md-3" style="border: 1px dotted blueviolet" ng-repeat="ministro in galeria" data-toggle="modal" data-target="#myModal{{$index+1}}">
                 <img class="img-responsive" ng-src="{{ministro.foto}}" alt="sem foto">
                 <strong>{{ministro.titulo}}</strong>
                 <br>

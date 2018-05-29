@@ -13,6 +13,10 @@ li,
     white-space: normal;
 }
 
+p {
+    text-align: justify;
+}
+
 /*galeria com itens centralizados*/
 
 .galeria li {
