@@ -18,7 +18,7 @@
     </div>
     <div class="col-md-9" style="border:1px dashed blue">
         <ul class="list-unstyled">
-            <li class="btn btn-block btn-default" ng-repeat="item in lista" data-toggle="modal" data-target="#myModal{{$id}}">
+            <li class="btn btn-block btn-default" ng-repeat="item in lista" data-toggle="modal" data-target="#myModal{{$index+1}}">
                 <strong>{{item.titulo}}</strong>
                 <br> {{item.subtitulo}}
             </li>
