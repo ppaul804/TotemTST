@@ -3,15 +3,13 @@
 <div class="container-fluid">
     <div class="row" style="border:1px solid black">
         <menu-lateral></menu-lateral>
-        
-        <conteudo-pagina-texto titulo="{{titulo}}" foto="{{foto}}" legenda="{{legenda}}" texto="{{texto}}">
-            <li class="list-group-item" ng-repeat="subtopico in subtopicos">
-                <a href="{{subtopico.url}}">
-                    {{subtopico.titulo}}
-                </a>
-            </li>
-        </conteudo-pagina-texto>
+
+        <conteudo-pagina-lista titulo="{{titulo}}" foto="{{foto}}" legenda="{{legenda}}">
+            <!--transclude-->
+        </conteudo-pagina-lista>
+
     </div>
     <!--row-->
 </div>
 <!--container-fluid-->
+<modal></modal>
