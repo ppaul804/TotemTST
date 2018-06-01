@@ -1,15 +1,13 @@
 //Fornece os dados para a view
 angular.module('toten')
     .controller('VoceSabiCtrl', function ($scope, $http) {
-        $scope.foto = "conteudo/Origem e Evolução do Trabalho/Historia do Trabalho no Brasil/Foto/História do Trabalho no Brasil.jpg";
-        //$scope.legenda = "alguma legenda";
-        //carrega um json de um arquivo externo. Caminho apartir de index.html
-        $http.get('js/angular/controllers/origEvol/hist-trab-subtopicos.json')
-            .then(function (resultado) {
-                $scope.subtopicos = resultado.data;
-            });
+        $scope.fotos = [{
+                "url": "conteudo/Curiosidades/Justiça e Números/Foto/Justiça e Números.png",
+                "legenda": ""
+            }
+        ]
 
         //Conteúdo da pagina (view)
-        $scope.titulo = "VoceSabiCtrl";
-        $scope.texto = "A história do trabalho no Brasil, marcada pelo longo período de escravidão e exploração dos trabalhadores, é muito rica em informações, há diversas formas de relações trabalhistas, movimentos sociais, lutas, direitos e legislações. Contudo, entre o período colonial até a proteção estabelecida pela Consolidação das Leis do Trabalho (CLT) e pela Justiça do Trabalho (JT), muitos embates ideológicos, greves e até mesmo conflitos foram travados. Os tipos de trabalho se desenvolveram e mudaram, as relações de trabalho se modificaram e se adaptaram a cada novo cenário.	Em síntese, apresentamos aqui importantes eventos da história do nosso país, de nossos trabalhadores e do desenvolvimento social e econômico da nação. Dividido nas principais formas de governo a que o Brasil foi submetido (Colônia, Império e República), o conteúdo apresentado dará um panorama rápido do que foi a história do trabalho brasileiro e do caminho traçado até chegarmos à criação da Justiça do Trabalho.";
+        $scope.titulo = "Justiça em Números";
+        $scope.texto = "Você parou para se questionar quantos processos o TST julga por ano? É importante que todos os cidadãos saibam que a Justiça do Trabalho conta com ministros, juízes, desembargadores e servidores que não medem esforços para que os seus direitos sejam respeitados.\n        Outra pergunta: você saberia responder o que profissionais como espeleólogo, herpetólogo, guaribador ou ictiólogo fazem? saiba que apesar de serem pouco conhecidas, esses e outras profissões fazem parte da realidade de muitos trabalhadores. Que tal descobrir com o que esses profissionais se ocupam e, quem sabe, encontrar alguma nova afinidade para sua vida profissional?\n        Aqui você saberá como o Dia do Trabalho é comemorado em outros países e até a quantidade de dias de férias que os trabalhadores têm direito mundo a fora. Além disso, se disserem que um processo julgado no TST já virou filme, você acredita? Convidamos você para descobrir essas e outras curiosidades.";
     });

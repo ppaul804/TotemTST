@@ -73,10 +73,13 @@ p {
     width: 12.1vw;
 }
 
-/*conteudo-pagina-* na diretiva conteudo-pagina-*.html*/
+/*conteudo-pagina na diretiva conteudo-pagina-*.html*/
 
-.conteudo-pagina-texto,
-.conteudo-pagina-lista,
-.conteudo-pagina-galeria {
+.conteudo-pagina {
     background: white
+}
+
+ng-transclude img {
+    /*centraliza as imagens dentro do ng-transclude*/
+    margin: 0 auto;
 }

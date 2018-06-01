@@ -3,14 +3,11 @@
 <div class="container-fluid">
     <div class="row" style="border:1px solid black">
         <menu-lateral></menu-lateral>
-        
-        <conteudo-pagina-texto titulo="{{titulo}}" foto="{{foto}}" legenda="{{legenda}}" texto="{{texto}}">
-            <li class="list-group-item" ng-repeat="subtopico in subtopicos">
-                <a href="{{subtopico.url}}">
-                    {{subtopico.titulo}}
-                </a>
-            </li>
-        </conteudo-pagina-texto>
+
+        <conteudo-pagina-curi>
+            <img ng-src="conteudo/Curiosidades/Justiça e Números/Foto/Justiça e Números_2.png" class="img-responsive" alt="Image">
+            <img ng-src="conteudo/Curiosidades/Justiça e Números/Foto/Justiça e Números_3.png" class="img-responsive" alt="Image">
+        </conteudo-pagina-curi>
     </div>
     <!--row-->
 </div>
