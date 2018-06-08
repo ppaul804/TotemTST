@@ -1,0 +1,8 @@
+de -> ("texto": )(".+")
+de -> (texto = )(".+")
+para -> $1[$2]
+
+de -> \\n        
+para -> ","
+
+no html -> <p ng-repeat="paragrafo in texto">{{paragrafo}}</p>

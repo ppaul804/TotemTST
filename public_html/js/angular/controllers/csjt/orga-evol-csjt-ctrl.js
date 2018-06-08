@@ -11,5 +11,5 @@ angular.module('toten')
 
         //Conteúdo da pagina (view)
         $scope.titulo = "OrgaEvolCsjtCtrl?";
-        $scope.texto = "Organograma Evolutivo do CSJT";
+        $scope.texto = ["Organograma Evolutivo do CSJT"];
     });

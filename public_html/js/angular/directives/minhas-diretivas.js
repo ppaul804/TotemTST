@@ -57,7 +57,7 @@ angular.module('minhasDiretivas', [])
             titulo: '@', //espécie de atributo da tag (diretiva) no html.
             foto: '@',
             legenda: '@',
-            texto: '@'
+            texto: '='
         };
         ddo.templateUrl = "js/angular/directives/conteudo-pagina-texto.html";
         return ddo; //obrigatório retornar o objeto da diretiva

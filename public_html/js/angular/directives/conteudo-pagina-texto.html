@@ -11,7 +11,7 @@
         <ul class="list-group" ng-transclude></ul>
     </div>
     <div class="col-md-9" style="border:1px dashed blue">
-        <p>{{texto}}</p>
+        <p ng-repeat="paragrafo in texto">{{paragrafo}}</p>
     </div>
 </div>
 <!--fim conteúdo-->

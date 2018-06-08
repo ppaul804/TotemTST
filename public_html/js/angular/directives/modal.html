@@ -16,7 +16,7 @@
                             <img class="img-responsive" ng-if="item.titulo == '2006'"  ng-src="{{item.fotoUrl5}}" alt="Foto não encontrada" />
                         </p>
                     </figure>
-                    <p class="col-md-8">{{item.texto}}</p>
+                    <p class="col-md-8" ng-repeat="paragrafo in item.texto">{{paragrafo}}</p>
                 </div>
                 <!--fim row-->
             </div>

@@ -12,7 +12,7 @@
                             <img class="img-modal-galeria" ng-src="{{item.foto}}" alt="Foto não encontrada" />
                         </p>
                     </figure>
-                    <p class="col-md-9">{{item.texto}}</p>
+                    <p class="col-md-9" ng-repeat="paragrafo in item.texto">{{paragrafo}}</p>
                 </div>
                 <!--fim row-->
             </div>

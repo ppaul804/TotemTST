@@ -4,8 +4,17 @@
     <div class="row" style="border:1px solid black">
         <menu-lateral></menu-lateral>
 
-        <conteudo-pagina-curi>
-        </conteudo-pagina-curi>
+        <div class="conteudo-pagina col-md-10" style="border:1px solid blue">
+            <h1>{{titulo}}</h1>
+            <div class="container-fluid" style="border: 1px dotted green;padding: 0;" ng-repeat="topico in subtopicos">
+                <div class="col-md-3" style="border:1px dashed blue">
+                    <img ng-src="{{topico.fotoUrl}}" class="img-responsive" alt="topico" />
+                </div>
+                <div class="col-md-9" style="border:1px dashed blue">
+                    <p ng-repeat="paragrafo in topico.texto">{{paragrafo}}</p>
+                </div>
+            </div>
+        </div>
     </div>
     <!--row-->
 </div>

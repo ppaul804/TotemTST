@@ -9,5 +9,5 @@ angular.module('toten')
 
         //Conteúdo da pagina (view)
         $scope.titulo = "Dicionário de profissões pouco comuns";
-        $scope.texto = "texto (lista na realidade)";
+        $scope.texto = ["texto (lista na realidade)"];
     });
