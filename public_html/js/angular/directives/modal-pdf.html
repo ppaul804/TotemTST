@@ -1,0 +1,24 @@
+<div class="modal fade" id="myModal{{$index+1}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" ng-repeat="item in subtopicos">
+    <div class="modal-dialog modal-lg" role="document" style="width:50vw">
+        <!--Repete item em lista e filtra por x-->
+        <div id="modal-content" class="modal-content">
+            <div class="modal-header">
+                <h2>{{item.titulo}}</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <span>teste</span>
+                </div>
+                <!--fim row-->
+            </div>
+            <!--fim modal-body-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                <!--Botão de Fechar-->
+            </div>
+        </div>
+        <!--fim modal-content-->
+    </div>
+    <!--fim modal-dialog-->
+</div>
+<!--fim modal-->
