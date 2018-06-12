@@ -1,13 +1,9 @@
 [{
         "titulo": "Decreto 16.027, de 30/04/1923",
-        "url": "#!/",
-        "foto": "",
-        "texto": ""
+        "url": "js/lib/pdf-js/web/viewer.html?file=../../../../conteudo/CNT/Organograma Evolutivo/Decreto 16.027, de 30-04-1923/Texto/Decreto 16.027, de 30-04-1923.pdf"
     },
     {
         "titulo": "Decreto 18.074, de 19/01/1928",
-        "url": "#!/",
-        "foto": "",
-        "texto": ""
+        "url": "js/lib/pdf-js/web/viewer.html?file=../../../../conteudo/CNT/Organograma Evolutivo/Decreto 18.074, de 19-01-1928/Texto/Decreto 18.074, de 19-01-1928.pdf"
     }
 ]

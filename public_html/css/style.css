@@ -7,6 +7,12 @@ body {
     background-size: cover;
 }
 
+iframe {
+    display: block;
+    width: 100%;
+    height: 65vh;
+}
+
 li,
 .btn {
     /*habilita a quebra de linha*/

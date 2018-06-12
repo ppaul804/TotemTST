@@ -5,14 +5,11 @@
         <menu-lateral></menu-lateral>
         
         <conteudo-pagina-texto titulo="{{titulo}}" foto="{{foto}}" legenda="{{legenda}}" texto="texto">
-            <li class="list-group-item" ng-repeat="subtopico in subtopicos">
-                <a href="{{subtopico.url}}">
+            <li class="list-group-item" ng-repeat="subtopico in subtopicos" data-toggle="modal" data-target="#myModal{{$index+1}}">
+                <a>
                     {{subtopico.titulo}}
                 </a>
             </li>
-            
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal{{$index+1}}">abre modal</button>
-            
         </conteudo-pagina-texto>
     </div>
     <!--row-->
