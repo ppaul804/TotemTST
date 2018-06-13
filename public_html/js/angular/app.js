@@ -1,5 +1,5 @@
 //Módulo Principal
-angular.module('toten', ['minhasDiretivas', 'ngRoute', 'ngCookies'])
+angular.module('toten', ['minhasDiretivas', 'ngRoute', 'ngCookies', 'ngTouch'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/inicio', {

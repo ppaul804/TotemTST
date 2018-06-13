@@ -39,6 +39,17 @@ angular.module('toten')
             $cookies.remove("filtro");
             console.log('filtro ' + $cookies.get("filtro") + ' removido');
         };
+        $scope.menuCollapses = function () {
+            var acc = document.getElementsByClassName("accordion");
+            var todosPaineis = [];
+            var todosAccordions = [];
+            console.log(acc);
+            for (let i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                });
+
+            }
+        }
         /**
          * fecha os outros collapses da view
          * @returns {undefined}

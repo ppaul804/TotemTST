@@ -1,12 +1,9 @@
 <div class="menu-botao col-md-2">
-    <button class="btn btn-default"
-            data-toggle="collapse"
-            data-parent="#menu"
-            data-target="#{{index}}">
+    <button class="btn btn-default accordion">
         <img ng-src="{{imagem}}" alt="imagem botão menu"/><br>
         <span>{{titulo}}</span>
     </button>
-    <div id="{{index}}" class="collapse" >
+    <div class="painel" >
         <ul class="list-group" ng-transclude>
             <!--Lista para cada botão-->
         </ul><!--fim lista do menu-->
