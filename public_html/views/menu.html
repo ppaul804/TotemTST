@@ -4,7 +4,7 @@
     <!--Pegar as informações dos botões no TotenCtrl e 
     repetir o código do meu-botão usando elas-->
     <menu-botao ng-repeat="menu in menuLista"
-                ng-click="menuCollapses(); setFiltro(menu.index)"
+                ng-click="menuCollapses($index); setFiltro(menu.index)"
                 index="{{menu.index}}"
                 imagem="{{menu.imagem}}"
                 titulo="{{menu.titulo}}"

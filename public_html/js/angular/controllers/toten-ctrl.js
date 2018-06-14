@@ -4,7 +4,6 @@ angular.module('toten')
         /**
          * Define o filtro nos cookies do navegador
          * @param {type} filtro
-         * @returns {undefined}
          */
         $scope.setFiltro = function (filtro) {
             $cookies.put("filtro", filtro);
@@ -26,39 +25,69 @@ angular.module('toten')
         };
         /**
          * Exibe o cookie no console
-         * @returns {undefined}
          */
         $scope.printFiltro = function () {
             console.log($cookies.get("filtro"));
         };
         /**
          * Remove o cookie filtro
-         * @returns {undefined}
          */
         $scope.limpaFiltro = function () {
-            $cookies.remove("filtro");
             console.log('filtro ' + $cookies.get("filtro") + ' removido');
+            $cookies.remove("filtro");
         };
-        $scope.menuCollapses = function () {
-            var acc = document.getElementsByClassName("accordion");
-            var todosPaineis = [];
-            var todosAccordions = [];
-            console.log(acc);
-            for (let i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function () {
-                });
 
+        /**
+         * Configura o comportamento dos collapses (paineis)
+         * @param {int} index indice do botão clicado
+         */
+        $scope.menuCollapses = function (index) {
+            //todos os accordions (botões)
+            $scope.accordions = document.getElementsByClassName("accordion");
+            //os paineis estão sempre abaixo (proximo elemento html) ao accordions
+            $scope.paineis = proxFilhos($scope.accordions);
+            //painel clicado = $scope.paineis[index]
+            //se tiver aberto
+            if ($scope.paineis[index].classList.contains("in")) {
+                //fecha todos
+                $scope.paineis = $scope.fecharPaineis($scope.paineis);                
+            }
+            //senão
+            else {
+                //fecha todos
+                $scope.paineis = $scope.fecharPaineis($scope.paineis);                
+                //e abre painel clicado
+                $scope.paineis[index].classList.add('in')
             }
         }
         /**
-         * fecha os outros collapses da view
-         * @returns {undefined}
+         * Fecha todos os paineis do menu
+         * @param {array} os paineis
+         * @returns {array} os paineis fechados
          */
-        $scope.fechaCollapses = function () {
-            $("button").click(function () {
-                $("div").removeClass('in');
-            });
-        };
+        $scope.fecharPaineis = function (paineis) {
+            var result=[];
+            for (let i = 0; i < paineis.length; i++) {
+                const painel = paineis[i];
+                result[i] = painel.classList.remove('in');
+            }
+            return paineis;
+        }
+        /**
+         * Faz um "slide" no vetor passado para o 
+         * proximo elemento html 
+         * @param um vetor com elementos html
+         * @returns vetor com elementos filhos 
+         * de cada elemento do vetor inicial
+         */
+        proxFilhos = function (array) {
+            var result = [];
+            for (let i = 0; i < array.length; i++) {
+                const element = array[i];
+                result[i] = element.nextElementSibling;
+            }
+            return result;
+        }
         /**
          * Abre o collapse dentro de uma div
          */

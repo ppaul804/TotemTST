@@ -1,21 +1,7 @@
 <navegacao></navegacao>
 <div class="container-fluid">
     <div class="row" style="border:1px solid black">
-        <!--Menu lateral-->
-        <div class="col-md-2" ng-controller="TotenCtrl" ng-open="abreCollapses()">
-            <menu-botao ng-repeat="menu in menuLista | filter:'origEvol'"
-                        index="{{menu.index}}"
-                        imagem="{{menu.imagem}}"
-                        titulo="{{menu.titulo}}"
-                        >
-                <!--Lista para cada botão (está dentro de um <ul>)-->
-                <li class="list-group-item" ng-repeat="topico in menu.topicos">
-                    <a href="{{topico.url}}">
-                        {{topico.titulo}}
-                    </a>
-                </li>
-            </menu-botao>
-        </div><!--fim menu lateral-->
+        <menu-lateral></menu-lateral>
         <!--Conteúdo-->
         <conteudo-pagina-texto
             titulo="{{subtopicos[0].titulo}}"
