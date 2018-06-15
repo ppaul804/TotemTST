@@ -34,6 +34,30 @@ angular.module('toten', ['minhasDiretivas', 'ngRoute', 'ngCookies', 'ngTouch'])
                 templateUrl: 'views/cnt/criaCnt.html',
                 controller: 'CriaCntCtrl' //origem dos dados
             })
+            .when('/leiEloyChav', {
+                templateUrl: 'views/cnt/leiEloyChav.html',
+                controller: 'CriaCntCtrl' //origem dos dados
+            })
+            .when('/novoReguCnt', {
+                templateUrl: 'views/cnt/novoReguCnt.html',
+                controller: 'CriaCntCtrl' //origem dos dados
+            })
+            .when('/criaMiniTrab', {
+                templateUrl: 'views/cnt/criaMiniTrab.html',
+                controller: 'CriaCntCtrl' //origem dos dados
+            })
+            .when('/comiMistConc', {
+                templateUrl: 'views/cnt/comiMistConc.html',
+                controller: 'CriaCntCtrl' //origem dos dados
+            })
+            .when('/antContCons', {
+                templateUrl: 'views/cnt/antContCons.html',
+                controller: 'CriaCntCtrl' //origem dos dados
+            })
+            .when('/acerCnt', {
+                templateUrl: 'views/cnt/acerCnt.html',
+                controller: 'CriaCntCtrl' //origem dos dados
+            })
             .when('/exPresCnt', {
                 templateUrl: 'views/cnt/exPresCnt.html',
                 controller: 'ExPresCntCtrl' //origem dos dados
@@ -52,6 +76,34 @@ angular.module('toten', ['minhasDiretivas', 'ngRoute', 'ngCookies', 'ngTouch'])
             })
             .when('/auto', {
                 templateUrl: 'views/jt/auto.html',
+                controller: 'AutoCtrl' //origem dos dados
+            })
+            .when('/csjtAuto', {
+                templateUrl: 'views/jt/csjtAuto.html',
+                controller: 'AutoCtrl' //origem dos dados
+            })
+            .when('/tstAuto', {
+                templateUrl: 'views/jt/tstAuto.html',
+                controller: 'AutoCtrl' //origem dos dados
+            })
+            .when('/trtsAuto', {
+                templateUrl: 'views/jt/trtsAuto.html',
+                controller: 'AutoCtrl' //origem dos dados
+            })
+            .when('/varaTrabAuto', {
+                templateUrl: 'views/jt/varaTrabAuto.html',
+                controller: 'AutoCtrl' //origem dos dados
+            })
+            .when('/pgtAuto', {
+                templateUrl: 'views/jt/pgtAuto.html',
+                controller: 'AutoCtrl' //origem dos dados
+            })
+            .when('/enamAuto', {
+                templateUrl: 'views/jt/enamAuto.html',
+                controller: 'AutoCtrl' //origem dos dados
+            })
+            .when('/anamAuto', {
+                templateUrl: 'views/jt/anamAuto.html',
                 controller: 'AutoCtrl' //origem dos dados
             })
             .when('/criaCsjt', {

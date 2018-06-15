@@ -52,10 +52,7 @@ p {
 
 .menu {
     /*width prefixado para navegadores*/
-    /*não funciona no IE*/
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: 73vw;
     /*centralizar uma div*/
     margin: 0 auto;
 }

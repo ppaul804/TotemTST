@@ -1,9 +1,8 @@
 <navegacao></navegacao>
-
 <div class="container-fluid">
     <div class="row" style="border:1px solid black">
         <menu-lateral></menu-lateral>
-        <!--ver https://stackoverflow.com/questions/16290782/passing-array-via-attribute-to-angularjs-directive-->
+        
         <conteudo-pagina-texto titulo="{{titulo}}" foto="{{foto}}" legenda="{{legenda}}" texto="texto">
             <li class="list-group-item" ng-repeat="subtopico in subtopicos">
                 <a href="{{subtopico.url}}">
