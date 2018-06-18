@@ -86,3 +86,7 @@ ng-transclude img {
     /*centraliza as imagens dentro do ng-transclude*/
     margin: 0 auto;
 }
+
+.conteudoComColunas {
+    columns: 2;
+}

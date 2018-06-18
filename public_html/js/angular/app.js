@@ -122,8 +122,92 @@ angular.module('toten', ['minhasDiretivas', 'ngRoute', 'ngCookies', 'ngTouch'])
                 templateUrl: 'views/tst/fatoHist.html',
                 controller: 'FatoHistCtrl' //origem dos dados
             })
+            .when('/jtPodeJudi', {
+                templateUrl: 'views/tst/jtPodeJudi.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/diviTstTurm', {
+                templateUrl: 'views/tst/diviTstTurm.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/tstEmBras', {
+                templateUrl: 'views/tst/tstEmBras.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/bandTst', {
+                templateUrl: 'views/tst/bandTst.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/mulhPionTst', {
+                templateUrl: 'views/tst/mulhPionTst.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/UtilServInte', {
+                templateUrl: 'views/tst/UtilServInte.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/refoPodeJudi', {
+                templateUrl: 'views/tst/refoPodeJudi.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/novaSedeTst', {
+                templateUrl: 'views/tst/novaSedeTst.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/leiProcElet', {
+                templateUrl: 'views/tst/leiProcElet.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/gestDocuTst', {
+                templateUrl: 'views/tst/gestDocuTst.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/PJeTst', {
+                templateUrl: 'views/tst/PJeTst.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/bndt', {
+                templateUrl: 'views/tst/bndt.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
+            .when('/tstSust', {
+                templateUrl: 'views/tst/tstSust.html',
+                controller: 'FatoHistCtrl' //origem dos dados
+            })
             .when('/progInst', {
                 templateUrl: 'views/tst/progInst.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/concTrab', {
+                templateUrl: 'views/tst/concTrab.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/ExecTrab', {
+                templateUrl: 'views/tst/ExecTrab.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/trabSegu', {
+                templateUrl: 'views/tst/trabSegu.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/PjeProgInst', {
+                templateUrl: 'views/tst/PjeProgInst.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/pctiea', {
+                templateUrl: 'views/tst/pctiea.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/HistOral', {
+                templateUrl: 'views/tst/HistOral.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/JusLabo', {
+                templateUrl: 'views/tst/JusLabo.html',
+                controller: 'ProgInstCtrl' //origem dos dados
+            })
+            .when('/ArquDigiTst', {
+                templateUrl: 'views/tst/ArquDigiTst.html',
                 controller: 'ProgInstCtrl' //origem dos dados
             })
             .when('/setentaAnosAcor', {

@@ -1,0 +1,15 @@
+<navegacao></navegacao>
+<div class="container-fluid">
+    <div class="row" style="border:1px solid black">
+        <menu-lateral></menu-lateral>
+        <!--Conteúdo-->
+        <conteudo-pagina-texto
+            titulo="{{subtopicos[5].titulo}}"
+            foto="{{subtopicos[5].foto}}"
+            legenda="{{subtopicos[5].legenda}}"
+            texto="subtopicos[5].texto">
+            <li class="list-group-item"
+                ng-repeat="subtopico in subtopicos"><a href="{{subtopico.url}}">{{subtopico.titulo}}</a></li>
+        </conteudo-pagina-texto>
+    </div>
+</div><!--container-fluid-->

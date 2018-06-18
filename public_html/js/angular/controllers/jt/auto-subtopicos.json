@@ -2,42 +2,42 @@
         "titulo": "CSJT",
         "url": "#!/csjtAuto",
         "foto": "",
-        "texto": ["Adicionar texto", "Adicionar texto"]
+        "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "TST",
         "url": "#!/tstAuto",
         "foto": "",
-        "texto": ["Adicionar texto", "Adicionar texto"]
+        "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "TRTs",
         "url": "#!/trtsAuto",
         "foto": "",
-        "texto": ["Adicionar texto", "Adicionar texto"]
+        "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "Vara do Trabalho",
         "url": "#!/varaTrabAuto",
         "foto": "",
-        "texto": ["Adicionar texto", "Adicionar texto"]
+        "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "PGT",
         "url": "#!/pgtAuto",
         "foto": "",
-        "texto": ["Adicionar texto", "Adicionar texto"]
+        "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "ENAMAT",
         "url": "#!/enamAuto",
         "foto": "",
-        "texto": ["Adicionar texto", "Adicionar texto"]
+        "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "ANAMATRA",
         "url": "#!/anamAuto",
         "foto": "",
-        "texto": ["Adicionar texto", "Adicionar texto"]
+        "texto": ["Adicionar texto","Adicionar texto2"]
     }
 ]

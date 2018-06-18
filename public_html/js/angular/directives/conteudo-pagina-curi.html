@@ -1,17 +1,9 @@
-<!--Conteúdo-->
-<div class="conteudo-pagina col-md-10" style="border:1px solid blue">
-    <h1>{{titulo}}</h1>
+<div class="container-fluid" style="border: 1px dotted green;padding: 0;" ng-repeat="topico in conteudo">
+    <h3>{{topico.profissao}}</h3>
     <div class="col-md-3" style="border:1px dashed blue">
-        <figure ng-repeat="foto in fotos">
-            <p>
-                <img ng-src="{{foto.url}}" class="img-responsive" alt="foto" />
-            </p>
-            <p>{{foto.legenda}}</p>
-        </figure>
+        <img ng-src="{{topico.fotoUrl}}" class="img-responsive" alt="{{topico.fotoUrl}}" />
     </div>
     <div class="col-md-9" style="border:1px dashed blue">
-        <p ng-repeat="paragrafo in texto">{{paragrafo}}</p>
-        <ng-transclude></ng-transclude>
+        <p ng-repeat="paragrafo in topico.texto">{{paragrafo}}</p>
     </div>
 </div>
-<!--fim conteúdo-->
