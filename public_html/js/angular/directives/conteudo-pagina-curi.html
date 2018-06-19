@@ -1,9 +1,11 @@
-<div class="container-fluid" style="border: 1px dotted green;padding: 0;" ng-repeat="topico in conteudo">
-    <h3>{{topico.profissao}}</h3>
-    <div class="col-md-3" style="border:1px dashed blue">
-        <img ng-src="{{topico.fotoUrl}}" class="img-responsive" alt="{{topico.fotoUrl}}" />
-    </div>
-    <div class="col-md-9" style="border:1px dashed blue">
-        <p ng-repeat="paragrafo in topico.texto">{{paragrafo}}</p>
+<div class="container-fluid" style="border: 1px dotted green;padding: 0;">
+    <div ng-repeat="topico in conteudo">
+        <div class="col-md-2" style="border:1px dashed blue">
+            <img ng-src="{{topico.fotoUrl}}" class="img-responsive" alt="{{topico.fotoUrl}}" />
+        </div>
+        <div class="col-md-4" style="border:1px dashed blue; height: 191.3px;">
+            <h4>{{topico.profissao}}</h4>
+            <p ng-repeat="paragrafo in topico.texto">{{paragrafo}}</p>
+        </div>
     </div>
 </div>

@@ -1,43 +1,43 @@
 [{
         "titulo": "CSJT",
         "url": "#!/csjtAuto",
-        "foto": "",
+        "foto": "conteudo/Justiça do Trabalho/Atores/CSJT/Foto/CSJT.png",
         "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "TST",
         "url": "#!/tstAuto",
-        "foto": "",
+        "foto": "conteudo/Justiça do Trabalho/Atores/TST/Foto/TST.jpg",
         "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "TRTs",
         "url": "#!/trtsAuto",
-        "foto": "",
+        "foto": "conteudo/Justiça do Trabalho/Atores/TRTs/Foto/TRTs.jpg",
         "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "Vara do Trabalho",
         "url": "#!/varaTrabAuto",
-        "foto": "",
+        "foto": "conteudo/Justiça do Trabalho/Atores/Vara do Trabalho/Foto/Vara do Trabalho.jpg",
         "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "PGT",
         "url": "#!/pgtAuto",
-        "foto": "",
+        "foto": "conteudo/Justiça do Trabalho/Atores/PGT/Foto/PGT.jpg",
         "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "ENAMAT",
         "url": "#!/enamAuto",
-        "foto": "",
+        "foto": "conteudo/Justiça do Trabalho/Atores/ENAMAT/Foto/ENAMAT.jpg",
         "texto": ["Adicionar texto","Adicionar texto2"]
     },
     {
         "titulo": "ANAMATRA",
         "url": "#!/anamAuto",
-        "foto": "",
+        "foto": "conteudo/Justiça do Trabalho/Atores/ANAMATRA/Foto/ANAMATRA.png",
         "texto": ["Adicionar texto","Adicionar texto2"]
     }
 ]

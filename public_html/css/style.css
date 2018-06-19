@@ -79,14 +79,11 @@ p {
 /*conteudo-pagina na diretiva conteudo-pagina-*.html*/
 
 .conteudo-pagina {
-    background: white
+    background: white;
+    padding-bottom: 5vh;
 }
 
 ng-transclude img {
     /*centraliza as imagens dentro do ng-transclude*/
     margin: 0 auto;
-}
-
-.conteudoComColunas {
-    columns: 2;
 }

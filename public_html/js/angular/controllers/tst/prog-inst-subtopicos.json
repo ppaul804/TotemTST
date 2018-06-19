@@ -2,49 +2,49 @@
     {
         "titulo": "Conciliação Trabalhista",
         "url": "#!/concTrab",
-        "foto": "",
+        "foto": "conteudo/TST/Programas Institucionais/Conciliação Trabalhista/Foto/Conciliação Trabalhista.jpg",
         "texto": ["O Conselho Superior da Justiça do Trabalho (CSJT) realiza desde 2015 a Semana Nacional da Conciliação Trabalhista. A iniciativa visa implementar medidas para proporcionar maior celeridade aos processos trabalhistas e aprimorar os meios consensuais de resolução de conflitos."," O evento conta com a participação dos 24 Tribunais Regionais do Trabalho e envolve magistrados, servidores, advogados e partes. Um dos objetivos dessa Semana é ressaltar a importância da conciliação, um dos pilares do processo do trabalho, e contribuir com a cultura da solução consensual dos litígios."]
     },
     {
         "titulo": "Execução Trabalhista",
         "url": "#!/ExecTrab",
-        "foto": "",
+        "foto": "conteudo/TST/Programas Institucionais/Execução Trabalhista/Foto/Execução Trabalhista.png",
         "texto": ["A Comissão Nacional de Efetividade da Execução Trabalhista é composta por 5 (cinco) magistrados de primeiro grau da Justiça do trabalho, cada qual representando uma das 5 (cinco) regiões geoeconômicas do país, além de 1 (um) coordenador e, no mínimo, 1 (um) juiz auxiliar da Presidência do Tribunal Superior do Trabalho (TST), todos indicados pela Presidência do Conselho Superior da Justiça do Trabalho (CSJT). Compete aos membros da Comissão Nacional de Efetividade da Execução Trabalhista:"," I – Propor, planejar e auxiliar a implementação de ações, projetos e medidas necessárias para conferir maior efetividade à execução trabalhista;"," II – Fomentar e divulgar boas práticas em execução trabalhista e medidas que auxiliem os magistrados da Justiça do Trabalho no cumprimento das Metas Nacionais;"," III – Apresentar anualmente relatório das atividades realizadas pela Comissão ao ministro presidente do Conselho Superior da Justiça do Trabalho;"," IV – Informar ao ministro presidente periodicamente os andamentos dos trabalhos da Comissão Nacional;"," V – Auxiliar o ministro presidente na organização e na promoção das atividades da Semana Nacional de Execução Trabalhista e do Leilão Nacional da Justiça do Trabalho;"," VI – Sugerir mecanismos de aperfeiçoamento de controle de dados estatísticos da fase de execução."]
     },
     {
         "titulo": "Trabalho Seguro",
         "url": "#!/trabSegu",
-        "foto": "",
+        "foto": "conteudo/TST/Programas Institucionais/Trabalho Seguro/Foto/Trabalho Seguro.png",
         "texto": ["O Programa Trabalho Seguro – Programa Nacional de Prevenção de Acidentes de Trabalho é uma iniciativa do Conselho Superior da Justiça do Trabalho e do Tribunal Superior do Trabalho, em parceria com diversas instituições públicas e privadas, visando à formulação e execução de projetos e ações nacionais voltados à prevenção de acidentes de trabalho e ao fortalecimento da Política Nacional de Segurança e Saúde no Trabalho. Desse modo, o principal objetivo do programa é contribuir para a diminuição do número de acidentes de trabalho registrados no Brasil nos últimos anos."]
     },
     {
         "titulo": "Pje",
         "url": "#!/PjeProgInst",
-        "foto": "",
+        "foto": "conteudo/TST/Programas Institucionais/Pje/Foto/Pje.jpg",
         "texto": ["O sistema Processo Judicial Eletrônico (PJe) instalado Justiça do Trabalho representa a quebra de paradigma do Judiciário Brasileiro, sem igual paralelo em qualquer outro país.  Além de não se utilizar mais o papel (preservando o meio ambiente e tornando mais salubre o local de trabalho), lança-se mão da tecnologia da informação em prol de serviços mais eficientes, econômicos, céleres e acessíveis de qualquer localidade e temporalidade. Nesse sentido, trata-se de sistema de grande complexidade e envergadura, haja vista o necessário atendimento à legislação trabalhista, como peculiaridades do trâmite processual, além de possuir a interoperabilidade entre os vários ramos da Justiça e órgãos federais, estaduais e municipais."]
     },
     {
         "titulo": "Programa de Combate ao Trabalho Infantil e Estimulo à Aprendizagem",
         "url": "#!/pctiea",
-        "foto": "",
+        "foto": "conteudo/TST/Programas Institucionais/Programa de Combate ao Trabalho Infantil e Estimulo à Aprendizagem/Foto/Programa de Combate ao Trabalho Infantil e Estimulo à Aprendizagem.jpg",
         "texto": ["A campanha, iniciativa do Programa de Combate ao Trabalho Infantil da Justiça do Trabalho, pretende contribuir para uma mudança de cultura, mostrando que o trabalho infantil existe e precisa ser eliminado, para que as crianças possam apenas brincar e estudar. Tendo como público-alvo os cidadãos brasileiros, a campanha foi dividida em três etapas de modo a motivar reflexões sobre o problema por diferentes perspectivas. Com o slogan “Trabalho Infantil. Você não vê, mas existe”, a nova campanha do Tribunal Superior do Trabalho pretende desconstruir mitos, mostrando que não é o trabalho precoce que garante futuro, mas a educação. O Programa de Combate ao Trabalho Infantil vem desde 2012 se engajando na luta para mudar essa realidade"]
     },
     {
         "titulo": "História Oral",
         "url": "#!/HistOral",
-        "foto": "",
+        "foto": ["conteudo/TST/Programas Institucionais/História Oral/Foto/História Oral.jpg", "conteudo/TST/Programas Institucionais/História Oral/Foto/ministro aposentado José Ajuricaba da Costa e Silva.jpg", "conteudo/TST/Programas Institucionais/História Oral/Foto/ministro aposentado Marcelo Pimentel.jpg"],
         "texto": ["O Programa de História Oral do Tribunal Superior do Trabalho tem por objetivos consolidar a memória institucional da Corte, registrar sua contribuição para a história social brasileira e também fomentar a pesquisa de temas relacionados à evolução do direito e da Justiça do Trabalho."," A CGEDM, dando prosseguimento às ações do programa, realiza entrevistas com grandes personalidades ligadas à Justiça do Trabalho: magistrados, advogados, procuradores e servidores que viveram ou testemunharam os acontecimentos que fizeram da Justiça do Trabalho o que ela é hoje: um dos pilares da democracia brasileira. "," Na primeira edição, foi apresentada uma entrevista realizada com ministro aposentado Marcelo Pimentel. Capixaba, nascido em 1925, Marcelo Pimentel teve uma atuação marcante no TST durante as décadas de 1980 e 1990. Ele presidiu o Tribunal entre 1986 e 1988 e também foi ministro do Trabalho durante o Governo Itamar Franco."," Na segunda edição, foi apresentada entrevista realizada com o ministro aposentado José Ajuricaba da Costa e Silva, nascido na cidade de Rio das Flores, Rio de Janeiro, em 1º de junho 1926. Foi corregedor-geral da Justiça do Trabalho, no período de 1991 a 1993. vice-presidente do TST entre 1993 e 1995 e presidente de 1995 a 1996 e em 03/06/1996 aposentou-se aos 70 anos."]
     },
     {
         "titulo": "JusLaboris – Biblioteca Digital da Justiça do Trabalho ",
         "url": "#!/JusLabo",
-        "foto": "",
+        "foto": "conteudo/TST/Programas Institucionais/JusLaboris/Foto/JusLaboris.jpg",
         "texto": ["Em 29 de agosto de 2016, foi disponibilizada a JusLaboris, Biblioteca Digital da Justiça do Trabalho (o endereço digital é http://juslaboris.tst.jus.br). A JusLaboris é uma evolução da Biblioteca Digital do TST, que em 2015 atingiu mais de um milhão de acessos aqui no Brasil, além dos internacionais. “Na realidade, passamos a ser referência na área trabalhista, e houve a necessidade de virarmos uma biblioteca da Justiça do Trabalho, até mesmo por conta do acervo que estava depositado nela. Com isso veio um novo nome”, destacou Iara Carvalho Alves de Oliveira, então supervisora da Seção de Biblioteca Digital da Coordenadoria de Documentação."," A ferramenta tem um layout limpo, moderno e funcional e pode ser acessada por tablet ou smartphones, de acordo com Virgínia Ramos Veríssimo, coordenadora de Documentação. Os conteúdos são livros digitais, vídeos institucionais e revistas jurídicas especializadas em Direito do Trabalho, como a Revista do Tribunal Superior do Trabalho, a Revista de Direito do Trabalho, e as revistas dos Tribunais Regionais do Trabalho."]
     },
     {
         "titulo": "Arquivoteca Digital – TST",
         "url": "#!/ArquDigiTst",
-        "foto": "",
+        "foto": "conteudo/TST/Programas Institucionais/Arquivoteca Digital/Foto/Arquivoteca Digital.png",
         "texto": ["Arquivoteca Digital é um Sistema Eletrônico de Descrição Arquivística e Acesso aos Usuários Finais no Tribunal Superior do Trabalho (TST). A utilização do AtoM, software com padrões arquivísticos, que possibilita a disponibilização do acervo em ambiente virtual é um marco no âmbito institucional, que permitirá ao consulente, detectar, preliminarmente, a possível existência e a localização de documentos de seu interesse, garantindo o pleno acesso à informação."," O grande benefício da Arquivoteca Digital é apreservação, difusão e o acesso ao fundo documental"," histórico do Tribunal Superior do Trabalho – TST e do Conselho Superior do Trabalho – CNT, já nos padrões arquivísticos, além do acesso à documentação na íntegra, de forma on-line, em qualquer parte do mundo."]
     }
 ]

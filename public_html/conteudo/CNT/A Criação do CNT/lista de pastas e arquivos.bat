@@ -1,1 +1,0 @@
-cmd /U /C dir /a /-p /o:n /s /b >lista.txt
