@@ -1,6 +1,8 @@
 //Fornece os dados para a view
 angular.module('toten')
     .controller('TotenCtrl', function ($scope, $cookies, $http) {
+        
+        
         /**
          * Define o filtro nos cookies do navegador
          * @param {type} filtro
@@ -50,14 +52,15 @@ angular.module('toten')
             //se tiver aberto
             if ($scope.paineis[index].classList.contains("in")) {
                 //fecha todos
-                $scope.paineis = $scope.fecharPaineis($scope.paineis);                
+                $scope.paineis = $scope.fecharPaineis($scope.paineis);
             }
             //senão
             else {
                 //fecha todos
-                $scope.paineis = $scope.fecharPaineis($scope.paineis);                
+                $scope.paineis = $scope.fecharPaineis($scope.paineis);
                 //e abre painel clicado
-                $scope.paineis[index].classList.add('in')
+                $scope.paineis[index].classList.add('in');
+                $scope.paineis[index].classList.add('flipInX');
             }
         }
         /**
@@ -66,7 +69,7 @@ angular.module('toten')
          * @returns {array} os paineis fechados
          */
         $scope.fecharPaineis = function (paineis) {
-            var result=[];
+            var result = [];
             for (let i = 0; i < paineis.length; i++) {
                 const painel = paineis[i];
                 result[i] = painel.classList.remove('in');
@@ -96,6 +99,7 @@ angular.module('toten')
                 $(".collapse").addClass('in');
             });
         };
+
         /**
          * Origem dos dados do menu
          */
