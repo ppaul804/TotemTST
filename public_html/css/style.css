@@ -2,9 +2,10 @@
 
 body {
     padding-top: 70px;
-    background: url(../img/fundo.jpg) center center no-repeat fixed;
     /*imagem de fundo*/
+    background: url(../img/fundo.jpg) center center no-repeat fixed;
     background-size: cover;
+    overflow:hidden
 }
 
 iframe {
@@ -26,7 +27,8 @@ p {
 /*galeria com itens centralizados*/
 
 .galeria li {
-    text-align: center
+    text-align: center;
+    height: 37vh;
 }
 
 .galeria li img {
@@ -46,6 +48,27 @@ p {
     height: 25vh;
     object-fit: cover;
     object-position: center;
+}
+
+/* modal no centro da tela */
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
 }
 
 /*menu em menu.html*/
