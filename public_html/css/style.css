@@ -5,7 +5,7 @@ body {
     /*imagem de fundo*/
     background: url(../img/fundo.jpg) center center no-repeat fixed;
     background-size: cover;
-    overflow:hidden
+    overflow: hidden;
 }
 
 iframe {
@@ -22,6 +22,26 @@ li,
 
 p {
     text-align: justify;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.list-group-item:hover {
+    background-color: #485563;
 }
 
 /*galeria com itens centralizados*/
@@ -104,6 +124,7 @@ p {
 .conteudo-pagina {
     background: white;
     padding-bottom: 5vh;
+    color: #333;
 }
 
 ng-transclude img {
