@@ -5,7 +5,7 @@ body {
     /*imagem de fundo*/
     background: url(../img/fundo.jpg) center center no-repeat fixed;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 iframe {
